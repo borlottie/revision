@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Accidence & Syntax</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="data.json"></script>
+  <script src="AS generate.js" defer></script>
+
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="scansion.html">Scansion</a>
+    <a href="a-and-s.html">A&S</a>
+    <a href="seen.html">Seen Poetry</a>
+  </div>
+  <div class="spacer"></div>
+
+  <div id="content">
+    <h1>Accidence & Syntax revision</h1>
+    <h2>Poems:</h2>
+    <em>Select poems to pull Accidence & Syntax words from.</em><br>
+    <!-- Poem checkboxes. They get loaded programmatically -->
+
+    <div id="poemchoice">
+      <h4>First Half</h4>
+
+      <input type="checkbox" id="selectall1" name="all" value="all" onchange="toggleAllPoems(1)">
+      <label for="all">Select All</label><br><br>
+
+      <h4>Second Half</h4>
+
+      <p>(Not yet added)</p>
+
+      <input type="checkbox" id="selectall2" name="all2" value="all2" onchange="toggleAllPoems(2)">
+      <label for="all2">Select All</label><br><br>
+
+      <label for="count">Number of words: </label>
+      <input type="number" name="count" value=10 id="count"><br>
+
+      <p id="error" style="font-size: 10px;color: red;margin: 0px;"></p><br>
+
+      <button onclick="generate()">Get A&S</button>
+    </div>
+
+    <div id="header" hidden=true>
+      <h2>Accidence & Syntax:</h2>
+      <em>Your chosen words are highlighted on the poems below. Click the yellow highlight to display the solution to
+        each word's A&S.</em>
+      <br>
+      <button onclick="toggleAllSolutions(false)">Show all solutions</button>
+      <button onclick="toggleAllSolutions(true)">Hide all solutions</button>
+    </div>
+    <!-- Generate button output -->
+    <table id="astable" class="padded">
+      <tr>
+        
+      </tr>
+    </table>
+
+  </div> <!-- end content -->
+  <div class="spacer"></div>
+</body>
+
+</html>

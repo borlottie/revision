@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scansion</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="data.json"></script>
+  <script src="scansion.js" defer></script>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="scansion.html">Scansion</a>
+    <a href="a-and-s.html">A&S</a>
+    <a href="seen.html">Seen Poetry</a>
+  </div>
+  <div class="spacer"></div>
+
+  <div id="content">
+    <h1>Scansion Revision</h1>
+    <h2>Settings:</h2>
+    <em>Select aeneid book and lines to scan from.</em><br>
+
+    <div id="settings">
+      <br>
+      <label for="book">Book: </label>
+      <!-- options are generated with a script: -->
+      <select name="book" id="book">
+        
+      </select><br>
+
+      <label for="start">Start from line: </label>
+      <input type="number" name="start" value=1 id="start"><br>
+
+      <label for="count">Number of lines: </label>
+      <input type="number" name="count" value=5 id="count"><br>
+      <input type="checkbox" name="skipEmpty" value="skipEmpty" id="skipempty">
+      <label for="skipEmpty">Only count lines with available scansion</label><br><br>
+      <p id="error" style="font-size: 10px;color: red;margin: 0px;"></p><br>
+
+      <button onclick="scansionGenerate()">Get Lines</button>
+    </div>
+
+    <div id="header" hidden=true>
+      <h2 id="bookname">Scansion:</h2>
+      <em>Your chosen scansion lines are below. Click a line to display its correct scansion.</em>
+      <br><br>
+      <button onclick="toggleAllScanSolutions(false)">Show all solutions</button>
+      <button onclick="toggleAllScanSolutions(true)">Hide all solutions</button><br><br>
+    </div>
+    <!-- Generate button output -->
+    <table id="scantable" class="padded" hidden=true>
+      <tr>
+        <th style="width: 5%">#</th>
+        <th style="width: 50%">Line</th>
+        <th style="width: 45%">Scansion</th>
+      </tr>
+    </table>
+
+  </div> <!-- end content -->
+  <div class="spacer"></div>
+</body>
+
+</html>

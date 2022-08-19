@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Seen Translations</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="data.json"></script>
+  <script src="seens.js" defer></script>
+
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="scansion.html">Scansion</a>
+    <a href="a-and-s.html">A&S</a>
+    <a href="seen.html">Seen Poetry</a>
+  </div>
+  <div class="spacer"></div>
+
+  <div id="content">
+    <h1>Seen Poetry Revision</h1>
+    <h2>Poems:</h2>
+    <em>Select poems to translate from.</em><br>
+    <!-- Poem checkboxes. They get loaded programmatically -->
+
+    <div id="poemchoice">
+      <h4>First Half</h4>
+
+      <input type="checkbox" id="selectall1" name="all" value="all" onchange="toggleAllPoems(1);countWords()">
+      <label for="all">Select All</label><br><br>
+
+      <h4>Second Half</h4>
+
+      <p>(Not yet added)</p>
+
+      <input type="checkbox" id="selectall2" name="all2" value="all2" onchange="toggleAllPoems(2);countWords()">
+      <label for="all2">Select All</label><br><br>
+
+      <p id="totalWords">0 total words.</p>
+
+      <p id="error" style="font-size: 10px;color: red;margin: 0px;" hidden=true></p>
+
+      <button onclick="generateSeens()">Get Seens</button>
+    </div>
+
+    <div id="header" hidden=true>
+      <h2>Seens:</h2>
+      <em>Your chosen poems are displayed below. To show/hide all poems at once, use the buttons below. To show/hide a poem at a time, click the poem's title. To show/hide a line at a time, click the line.</em>
+      <br>
+      <button onclick="toggleEverything(false)">Show all solutions</button>
+      <button onclick="toggleEverything(true)">Hide all solutions</button>
+    </div>
+    <!-- Generate button output -->
+    <table id="seenstable">
+      <tr>
+        
+      </tr>
+    </table>
+
+  </div> <!-- end content -->
+  <div class="spacer"></div>
+</body>
+
+</html>
