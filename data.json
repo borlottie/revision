@@ -813,7 +813,7 @@ var poems = {
     ],
     "aAndS":[
       {"word":"nulli","index":0,"solution":"adj descs understood noun man"},
-      {"word":"se","index":1,"solution":"refl pron repls noun (subj) mulier, acc obj of verb dicit"},
+      {"word":"se","index":0,"solution":"refl pron repls noun (subj) mulier, acc obj of verb dicit"},
       {"word":"dicit","index":0,"solution":"verb 3S pres act indic"},
       {"word":"mulier","index":0,"solution":"noun nom subj of verb dicit"},
       {"word":"mea","index":0,"solution":"poss adj descs & owns noun mulier"},
@@ -855,7 +855,18 @@ var poems = {
     ],
     "aAndS":[
       {"word":"huc","index":0,"solution":"adv descs verb deducta est"},
-      {"word":"est... deducta","index":1,"solution":"verb 3S perf pass indic"},
+      {
+        "word":"est... deducta",
+        "index":0,
+        "solution":"verb 3S perf pass indic",
+        "exception": {
+          "type":"gap", 
+          "firstWord":"est", 
+          "firstIndex": 0, 
+          "secondWord":"deducta", 
+          "secondIndex":0
+        }
+      },
       {"word":"mens","index":0,"solution":"noun nom subj of verb deducta est"},
       {"word":"tua","index":0,"solution":"poss adj descs & denotes possession / ownership of noun culpa"},
       {"word":"mea","index":0,"solution":"poss adj descs & denotes possession / ownership of noun mens"},
@@ -1045,7 +1056,7 @@ var poems = {
         }
       },
       {"word":"mea","index":0,"solution":"poss adj descs & denotes possession of noun Lesbia"},
-      {"word":"nulla","index":0,"solution":"adj descs noun fides"},
+      {"word":"nulla","index":1,"solution":"adj descs noun fides"},
       {"word":"fides","index":0,"solution":"noun nom subj of verb fuit"},
       {"word":"ullo","index":0,"solution":"adj descs noun foedere"},
       {"word":"fuit","index":0,"solution":"verb 3S perf act indic"},
