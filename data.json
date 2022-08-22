@@ -101,7 +101,6 @@ var poems = {
       {"word":"basiorum","index":0,"solution":"noun gen partitive"}
     ],
   },
-
   "Cat7": {
     "name":"Catullus VII. ad Lesbiam",
     "englishName":"Catullus 7. To Lesbia",
@@ -194,7 +193,6 @@ var poems = {
       {"word":"lingua","index":0,"solution":"noun nom subj of verb possint"}
     ],
   },
-
   "Cat8": {
     "name":"Catullus VIII. ad se ipsum",
     "englishName":"Catullus 8. To he himself",
@@ -350,7 +348,6 @@ var poems = {
       {"word":"obdura","index":1,"solution":"verb 2S pres act impera"},
     ],
   },
-
   "Cat13": {
     "name":"Catullus XIII. ad Fabullum",
     "englishName":"Catullus 13. To Fabullus",
