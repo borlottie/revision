@@ -113,12 +113,16 @@ function generate() {
   let wordPool = []
   for (poem of allowedPoems) { //for every poem allowed
     for (item of poems[poem].aAndS) { //add every a and s word to the wordpool
-      wordPool.push({
+      const word = {
         "word": item.word,
         "solution": item.solution,
         "index": item.index,
         "poem": poem, //with all the usual details plus the poem it's in
-      })//end wordPool push
+      }
+      if ("exception" in item) {
+        word.exception = item.exception
+      }
+      wordPool.push(word)//end wordPool push
     }//end word for
   }//end poem for
   //console.log(wordPool)
@@ -182,19 +186,49 @@ function generate() {
     for (i in chosenWords) {
       let item = chosenWords[i] //for every word
       if (item.poem == poem) { //if the word's in this poem
-        let insertIndex = getNthOccurrence(content, item.word, item.index) //find it
-        //console.log(insertIndex)
-        //insert the button tag before
-        const firstTag = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
-        content = content.slice(0, insertIndex)
-          + firstTag
-          + content.slice(insertIndex)
+        if ("exception" in item) { //exceptions
+          
+          if (item.exception.type == "gap") {
+            const exc = item.exception
+            let insertIndex = getNthOccurrence(content, exc.firstWord, exc.firstIndex)
+            const firstTag = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
+            content = content.slice(0, insertIndex)
+            + firstTag
+            + content.slice(insertIndex)
+            
+            insertIndex += exc.firstWord.length + firstTag.length
+          content = content.slice(0, insertIndex)
+            + '</button>'
+            + content.slice(insertIndex)
 
-        //insert tag after
-        insertIndex += item.word.length + firstTag.length
-        content = content.slice(0, insertIndex)
-          + '</button>'
-          + content.slice(insertIndex)
+            insertIndex = getNthOccurrence(content, exc.secondWord, exc.secondIndex)
+            const firstTagAgain = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
+            content = content.slice(0, insertIndex)
+            + firstTag
+            + content.slice(insertIndex)
+            
+            insertIndex += exc.secondWord.length + firstTag.length
+          content = content.slice(0, insertIndex)
+            + '</button>'
+            + content.slice(insertIndex)
+          }
+          
+        } else { //typical behaviour
+          let insertIndex = getNthOccurrence(content, item.word, item.index) //find it
+          //console.log(insertIndex)
+          //insert the button tag before
+          const firstTag = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
+          content = content.slice(0, insertIndex)
+            + firstTag
+            + content.slice(insertIndex)
+  
+          //insert tag after
+          insertIndex += item.word.length + firstTag.length
+          content = content.slice(0, insertIndex)
+            + '</button>'
+            + content.slice(insertIndex)
+        }
+        
       }//end poem if
       //write changes to the text var
       text.innerHTML = content
