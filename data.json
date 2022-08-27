@@ -736,7 +736,7 @@ var poems = {
       "dulce ridentem, misero quod omnis",
       "eripit sensus mihi: nam simul te,",
       "Lesbia, aspexi, nihil est super mi",
-      "* * * * * * * *",
+      "* * * (vocis in ore) * * *",
       "lingua sed torpet, tenuis sub artus",
       "flamma demanat, sonitu suo(pte)",
       "tintinant aures gemina, teguntur",
@@ -745,6 +745,24 @@ var poems = {
       "otio exsultas nimiumque gestis:",
       "otium et reges prius et beatas",
       "perdidit urbes.",
+    ],
+    "translations": [
+      "He seems to me to be equal to a god,",
+      "he, if it's possible, seems to surpass the gods,",
+      "who, sitting opposite, repeatedly",
+      "watches and hears",
+      "you laughing sweetly, which robs all",
+      "feelings from miserable me; for as soon as I looked at you,",
+      "o Lesbia, there's nothing of my",
+      "voice left in my mouth",
+      "but my tongue is numb, a fine flame spreads down through my body,",
+      "my ears ring with their very own sound,",
+      "and my eyes are covered with double", 
+      "the darkness.",
+      "(Not required to translate)",
+      "(Not required to translate)",
+      "(Not required to translate)",
+      "(Not required to translate)",
     ],
     "aAndS":[
       {"word":"ille","index":0,"solution":"dem pron repls & pts out noun Catullus"},
@@ -783,6 +801,8 @@ var poems = {
       {"word":"est","index":1,"solution":"verb 3S pres act indic"},
       {"word":"super","index":0,"solution":"adv descs verb est"},
       {"word":"mi","index":1,"solution":"pers pron repls noun Catullus, dat indir obj of verb est"},
+      {"word":"vocis","index":0,"solution":"noun gen partitive"},
+      {"word":"ore","index":0,"solution":"noun abl folls prepos'n in + Abl"},
       {"word":"lingua","index":0,"solution":"noun nom subj of verb torpet"},
       {"word":"sed","index":0,"solution":"conjunction"},
       {"word":"torpet","index":0,"solution":"verb 3S pres act indic"},
@@ -810,6 +830,12 @@ var poems = {
       "quam mihi, non si se Iuppiter ipse petat.",
       "dicit: sed mulier cupido quod dicit amanti,",
       "in vento et rapida scribere oportet aqua.",
+    ],
+    "translations": [
+      "My woman says that she prefers to marry no one other",
+      "than me, not even if Jupiter himself may ask her.",
+      "That's what she says: but what a woman says to a loving lover,",
+      "she ought to write in the wind and in running water."
     ],
     "aAndS":[
       {"word":"nulli","index":0,"solution":"adj descs understood noun man"},
@@ -852,6 +878,12 @@ var poems = {
       "atque ita se officio perdidit ipsa suo,",
       "ut iam nec bene velle queat tibi, si optima fias,",
       "nec desistere amare, omnia si facias.",
+    ],
+    "translations": [
+      "To this point my mind has been dragged down, o Lesbia, by your fault",
+      "and so, by its own devotion, it itself has destroyed itself.",
+      "So that now it can neither wish you well, if you may become good,",
+      "nor can it stop loving you, if you may do everything bad."
     ],
     "aAndS":[
       {"word":"huc","index":0,"solution":"adv descs verb deducta est"},
