@@ -963,6 +963,12 @@ var poems = {
       "et tum mirifice sperabat se esse locutum,",
       "cum quantum poterat dixerat hinsidias.",
     ],
+    "translations": [
+      "He said 'hopportunity', whenever he wished to say 'opportunity',",
+      "and for 'ambush' Arrius said 'hambush',",
+      "and then he was hoping that he'd spoken wonderfully,",
+      "as much as he could when he'd said 'hambush'.",
+    ],
     "aAndS":[
       {"word":"dicebat","index":0,"solution":"verb 3S imperf act indic"},
       {"word":"si","index":0,"solution":"conjunction"},
@@ -997,6 +1003,16 @@ var poems = {
       "cum subito affertur nuntius horribilis,",
       "Ionios fluctus, postquam illuc Arrius isset,",
       "iam non Ionios esse sed Hionios.",
+    ],
+    "translations": [
+      "I believe, his mother, his free uncle,",
+      "his maternal grandfather and grandmother had spoken like this.",
+      "With this man sent into Syria, everyone's ears had found rest.",
+      "And they were hearing these same things softly and lightly,",
+      "and they weren't fearing such words to themselves afterwards,",
+      "when suddenly a horrible message was brought,",
+      "that the Ionian waves, after Arrius had gone there,",
+      "were now not Ionian but Hionian."
     ],
     "aAndS":[
       {"word":"credo","index":0,"solution":"verb 1S pres act indic"},
@@ -1058,6 +1074,10 @@ var poems = {
       "Odi et amo. quare id faciam, fortasse requiris.",
       "nescio, sed fieri sentio et excrucior.",
     ],
+    "translations": [
+      "I hate and I love. Why I do that, perhaps you ask.",
+      "I don't know, but I feel that it happens and I'm tormented."
+    ],
     "aAndS":[
       {"word":"odi","index":0,"solution":"verb 1S perf (form) / pres (meaning) (defective) act indic"},
       {"word":"et","index":0,"solution":"conjunction"},
@@ -1085,6 +1105,12 @@ var poems = {
       "vere, quantum a me Lesbia amata mea est.",
       "nulla fides ullo fuit umquam foedere tanta,",
       "quanta in amore tuo ex parte reperta mea est.",
+    ],
+    "translations": [
+      "No woman can truly say that she herself has been loved so much,",
+      "as much as my Lesbia was loved by me.",
+      "There has never been a trust so great in any commitment,",
+      "as much as my trust kept on my side in my love for you.",
     ],
     "aAndS":[
       {"word":"nulla","index":0,"solution":"adj descs noun mulier"},
