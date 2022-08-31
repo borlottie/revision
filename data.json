@@ -1202,6 +1202,33 @@ var poems = {
       {"word":"amo","index":0,"solution":"verb 1S pres act indic"},
     ],
   },
+  "Cat93": {
+    "name":"Catullus XCIII. ad Gaium Iulium Caesarem",
+    "englishName":"Catullus 93. To Gaius Julius Caesar",
+    "wordCount":15,
+    "half":2,
+    "latin": [
+      "Nil nimium studeo, Caesar, tibi velle placere,",
+      "nec scire utrum sis albus an ater homo.",
+    ],
+    "aAndS":[
+      {"word":"nil","index":0,"solution":"adv descs verb studeo"},
+      {"word":"nimium","index":0,"solution":"adv descs verb studeo"},
+      {"word":"studeo","index":0,"solution":"verb 1S pres act indic"},
+      {"word":"Caesar","index":0,"solution":"noun voc prsn addressed"},
+      {"word":"tibi","index":0,"solution":"pers pron repls noun Caesar, dat folls verb placere + Dat"},
+      {"word":"velle","index":0,"solution":"verb pres act inf"},
+      {"word":"placere","index":0,"solution":"verb pres act inf"},
+      {"word":"nec","index":0,"solution":"conjunction / adv descs verb studeo"},
+      {"word":"scire","index":0,"solution":"verb pres act inf"},
+      {"word":"utrum","index":0,"solution":"adv descs verb sis"},
+      {"word":"sis","index":0,"solution":"verb 2S pres act subjunct"},
+      {"word":"albus","index":0,"solution":"adj descs noun homo"},
+      {"word":"an","index":0,"solution":"conjunction"},
+      {"word":"ater","index":0,"solution":"adj descs noun homo"},
+      {"word":"homo","index":0,"solution":"noun nom subj of verb sis"},
+    ],
+  },
 }
 
 const template = {
