@@ -1173,6 +1173,12 @@ var poems = {
       "quo signo? quia sunt totidem mea: deprecor illam",
       "assidue, verum dispeream nisi amo.",
     ],
+    "translations": [
+      "Lesbia always speaks badly to me and she never shuts up",
+      "about me: unless Lesbia loves me, let me be hanged.",
+      "By what sign? Because there are just as many of my words: I'm deprecating her",
+      "continually, but let me be hanged unless I truly love her."
+    ],
     "aAndS":[
       {"word":"Lesbia","index":0,"solution":"noun Nom subj of verb dicit"},
       {"word":"mi","index":0,"solution":"pers pron repls noun Catullus, dat indir obj of verb dicit"},
