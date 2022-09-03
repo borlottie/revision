@@ -1217,6 +1217,10 @@ var poems = {
       "Nil nimium studeo, Caesar, tibi velle placere,",
       "nec scire utrum sis albus an ater homo.",
     ],
+    "translations": [
+      "I'm neither very keen, o Caesar, to wish to please you,",
+      "nor to know whether you are a white or a black man."
+    ],
     "aAndS":[
       {"word":"nil","index":0,"solution":"adv descs verb studeo"},
       {"word":"nimium","index":0,"solution":"adv descs verb studeo"},
