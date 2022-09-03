@@ -1258,6 +1258,16 @@ var poems = {
       "quem siqua attingit, non illam posse putemus",
       "aegroti culum lingere carnificis?",
     ],
+    "translation": [
+      "NOTE THE 'translation' AND NOT 'translations' THIS IS NOT FUNCTIONAL YET",
+      "I didn't think (may the gods love me so) that it mattered,",
+      "whether I might smell Aemilius' mouth or arse.",
+      "One is no cleaner, and the other is no dirtier,",
+      "But actually his arse is even cleaner and better:",
+      "for it's without teeth. This man indeed has foot and a half long teeth,",
+      "gums of an old box-cart, and",
+      "moreover,",
+    ],
     "aAndS":[
       {"word":"non","index":0,"solution":"adv descs verb putavi"},
       {"word":"ita","index":0,"solution":"adv descs verb ament"},
