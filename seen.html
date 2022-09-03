@@ -24,6 +24,7 @@
     <h1>Seen Poetry Revision</h1>
     <h2>Poems:</h2>
     <em>Select poems to translate from.</em><br>
+    <button onclick="saveSettings()">Save Current Settings</button><br>
     <!-- Poem checkboxes. They get loaded programmatically -->
 
     <div id="poemchoice">
@@ -42,7 +43,6 @@
       <p id="totalWords">0 total words.</p>
 
       <p id="error" style="font-size: 10px;color: red;margin: 0px;" hidden=true></p>
-
       <button onclick="generateSeens()">Get Seens</button>
     </div>
 

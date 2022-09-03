@@ -28,6 +28,7 @@ for (poem in poems) {
   }//end if
 }//end for
 
+//load saved options
 if (typeof(Storage) !== "undefined") { //local storage handler
     const selectFirstHalf = document.getElementById("selectall1")
   
@@ -47,11 +48,10 @@ if (typeof(Storage) !== "undefined") { //local storage handler
   countWords()
   }
 
-function generateSeens() {
-  //get allowed poems
+function saveSettings() {
   let allowedPoems = getAllowedPoems()
-  //code to save to local storage
 
+  //save to local storage
   if (typeof(Storage) !== "undefined") { //local storage handler
     const selectFirstHalf = document.getElementById("selectall1")
     localStorage.SEENfirstHalf = selectFirstHalf.checked
@@ -67,6 +67,11 @@ function generateSeens() {
       }
     }
   }
+}
+
+function generateSeens() {
+  //get allowed poems
+  let allowedPoems = getAllowedPoems()
   
   if (allowedPoems.length == 0) {
     const error = document.getElementById("error")
