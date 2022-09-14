@@ -1497,6 +1497,16 @@ var poems = {
       "spem longam reseces. Dum loquimur, fugerit invida",
       "aetas: carpe diem, quam minimum credula postero.",
     ],
+    "translations":[
+      "You shouldn't ask (it's a sin to know) what",
+      "destiny the gods have given to me and to you, o Leuconoe, and you shouldn't",
+      "consult Babylonian horoscopes. As it'll be better to experience everything!",
+      "Whether Jupiter has given more winters or a last one,",
+      "which now breaks the force of the Tuscan sea against the facing cliffs",
+      "may you be wise, strain the wine and, in a short space,",
+      "may you cut back distant hope. While we're talking, time, our enemy flies:",
+      "Seize the day, trusting as little as possible in what's to follow.",
+    ],
     "aAndS":[
       {"word":"tu","index":0,"solution":"pers pron repls noun Leuconoe, nom subj of verb quaesieris"},
       {"word":"ne","index":0,"solution":"adv descs verb quaesieris"},
