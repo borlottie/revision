@@ -1340,7 +1340,7 @@ var poems = {
   },
   "Cat101": {
     "name":"Catullus CI. ad inferias",
-    "englishName":"Catullus 101. to inferior women??",
+    "englishName":"Catullus 101. to offerings to the dead",
     "wordCount":62,
     "half":2,
     "latin": [
@@ -1354,6 +1354,18 @@ var poems = {
       "tradita sunt tristi munere ad inferias,",
       "accipe fraterno multum manantia fletu,",
       "atque in perpetuum, frater, ave atque vale.",
+    ],
+    "translations":[
+      "Having travelled through many nations and across many seas,",
+      "I arrive, o brother, at these wretched offerings to the dead,",
+      "to present you finally with a gift of death",
+      "and to fruitlessly speak to mute ashes.",
+      "Since fortune's taken you yourself away from me.",
+      "Alas, o poor brother, taken away unworthily from me,",
+      "now, however, meanwhile, these things, which, in the ancient custom of our parents",
+      "have been handed over as a sad tribute for my offerings to you,",
+      "receive these brotherly tears, dripping heavily",
+      "and now and forever, o brother, farewell and goodbye.",
     ],
     "aAndS":[
       {"word":"multas","index":0,"solution":"adj descs noun gentes"},
