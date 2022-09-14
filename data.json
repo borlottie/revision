@@ -1437,6 +1437,14 @@ var poems = {
       "ut liceas/t nobis tota perducere vita",
       "aeternum hoc sanctae foedus amicitiae.",
     ],
+    "translations":[
+      "O my life, you declare to me that this our love",
+      "will be delightful and everlasting between us.",
+      "O great gods, grant that she can truly promise,",
+      "and she may say it honestly and from the heart,",
+      "that you may allow us to continue, in our whole life",
+      "forever, this treaty of sacred friendship.",
+    ],
     "aAndS":[
       {"word":"iucundum","index":0,"solution":"adj descs noun amorem"},
       {"word":"mea","index":0,"solution":"poss adj descs & denotes possession of noun vita"},
