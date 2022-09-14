@@ -1583,6 +1583,22 @@ var poems = {
       "tandem desine matrem",
       "tempestiva sequi viro.",
     ],
+    "translations":[
+      "You avoid me like a fawn, o Chloe,",
+      "seeking her terrified mother on untrodden mountains",
+      "with empty",
+      "fear of the breezes and of the wood.",
+      "",
+      "For whether spring's arrival bristles for the shivering",
+      "leaves or green",
+      "lizards disperse a bramble bush,",
+      "she trembles both in her heart and in her knees.",
+      "",
+      "Now, I am not, as a rough tiger",
+      "or a Gaetulian lion, pursuing you to maul you:",
+      "at last, stop following your mother",
+      "you're old enough for a man."
+    ],
     "aAndS":[
       {"word":"vitas","index":0,"solution":"verb 2s pres act indic"},
       {"word":"inuleo","index":0,"solution":"noun dat follows adj similis + dat"},
