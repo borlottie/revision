@@ -84,6 +84,7 @@ function generate() {
     }//end tagname/checked if
   }//end for
 
+  //save choices
   if (typeof(Storage) !== "undefined") { //local storage handler
     const selectFirstHalf = document.getElementById("selectall1")
     localStorage.ASfirstHalf = selectFirstHalf.checked
@@ -202,7 +203,6 @@ function generate() {
             + content.slice(insertIndex)
 
             insertIndex = getNthOccurrence(content, exc.secondWord, exc.secondIndex)
-            const firstTagAgain = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
             content = content.slice(0, insertIndex)
             + firstTag
             + content.slice(insertIndex)
@@ -310,3 +310,10 @@ function toggleAllPoems(half) {
   }//end tagname/checked if
 }//end for
 
+function investigate() {
+  console.log("investigate")
+  //run a modified generate
+  //set number of words to the total of all the selected poems
+  //firstTag should be set to not contain the word 'highlight' (the same but with just class="inline")
+  //do this easiest by running generate with a boolean param 'investigate'? defaulting to false
+}
