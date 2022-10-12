@@ -72,6 +72,7 @@ function getNthOccurrence(string, substring, index) {
 }//end func
 
 function generate(investigate = false) {
+  //investigate param - whether to be in 'investigate' mode
   //get list of poems to include
   let form = document.getElementById('poemchoice');
   let allowedPoems = []
@@ -313,3 +314,5 @@ function toggleAllPoems(half) {
     }
   }//end tagname/checked if
 }//end for
+
+
