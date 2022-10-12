@@ -313,11 +313,3 @@ function toggleAllPoems(half) {
     }
   }//end tagname/checked if
 }//end for
-
-function investigate() {
-  console.log("investigate")
-  //run a modified generate
-  //set number of words to the total of all the selected poems
-  //firstTag should be set to not contain the word 'highlight' (the same but with just class="inline")
-  //do this easiest by running generate with a boolean param 'investigate'? defaulting to false
-}
