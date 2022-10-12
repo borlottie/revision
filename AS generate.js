@@ -71,7 +71,8 @@ function getNthOccurrence(string, substring, index) {
   }//end for
 }//end func
 
-function generate() {
+function generate(investigate = false) {
+  //investigate param - whether to be in 'investigate' mode
   //get list of poems to include
   let form = document.getElementById('poemchoice');
   let allowedPoems = []
@@ -84,6 +85,7 @@ function generate() {
     }//end tagname/checked if
   }//end for
 
+  //save choices
   if (typeof(Storage) !== "undefined") { //local storage handler
     const selectFirstHalf = document.getElementById("selectall1")
     localStorage.ASfirstHalf = selectFirstHalf.checked
@@ -129,6 +131,9 @@ function generate() {
 
   //pick some random words (entirely random for now)
   let numberOfWords = document.getElementById("count").value
+  if (investigate) {
+    numberOfWords = wordPool.length;
+  }
   let chosenWords = []
 
   if (numberOfWords > wordPool.length) {
@@ -186,12 +191,14 @@ function generate() {
     for (i in chosenWords) {
       let item = chosenWords[i] //for every word
       if (item.poem == poem) { //if the word's in this poem
+        const firstTag = (investigate ? 
+              '<button class="inline" onclick="toggleSolution(' + i + ')">' : 
+              '<button class="inline highlight" onclick="toggleSolution(' + i + ')">')
         if ("exception" in item) { //exceptions
           
           if (item.exception.type == "gap") {
             const exc = item.exception
             let insertIndex = getNthOccurrence(content, exc.firstWord, exc.firstIndex)
-            const firstTag = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
             content = content.slice(0, insertIndex)
             + firstTag
             + content.slice(insertIndex)
@@ -202,7 +209,6 @@ function generate() {
             + content.slice(insertIndex)
 
             insertIndex = getNthOccurrence(content, exc.secondWord, exc.secondIndex)
-            const firstTagAgain = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
             content = content.slice(0, insertIndex)
             + firstTag
             + content.slice(insertIndex)
@@ -217,7 +223,6 @@ function generate() {
           let insertIndex = getNthOccurrence(content, item.word, item.index) //find it
           //console.log(insertIndex)
           //insert the button tag before
-          const firstTag = '<button class="inline highlight" onclick="toggleSolution(' + i + ')">'
           content = content.slice(0, insertIndex)
             + firstTag
             + content.slice(insertIndex)
@@ -309,4 +314,5 @@ function toggleAllPoems(half) {
     }
   }//end tagname/checked if
 }//end for
+
 
