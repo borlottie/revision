@@ -93,3 +93,7 @@ table td {
   horizontal-padding: 10px;
   vertical-padding: 2px;
 }
+
+table.as td {
+  width: 50%;
+}

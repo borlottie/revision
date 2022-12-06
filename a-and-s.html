@@ -27,18 +27,26 @@
     <!-- Poem checkboxes. They get loaded programmatically -->
 
     <div id="poemchoice">
+      <H3>Catullus and Horace</H3>
+      
       <h4>First Half</h4>
-
       <input type="checkbox" id="selectall1" name="all" value="all" onchange="toggleAllPoems(1)">
       <label for="all">Select All</label><br><br>
 
       <h4>Second Half</h4>
-
-      <p>(Not yet added)</p>
-
       <input type="checkbox" id="selectall2" name="all2" value="all2" onchange="toggleAllPoems(2)">
       <label for="all2">Select All</label><br><br>
 
+      <h3>Caesar</h3>
+      
+      <h4>First Half</h4>
+      <input type="checkbox" id="selectall3" name="all" value="all" onchange="toggleAllPoems(3)">
+      <label for="all">Select All</label><br><br>
+      
+      <h4>Second Half</h4>
+      <input type="checkbox" id="selectall4" name="all" value="all" onchange="toggleAllPoems(4)">
+      <label for="all">Select All</label><br><br>
+      
       <label for="count">Number of words: </label>
       <input type="number" name="count" value=10 id="count"><br>
 
@@ -56,7 +64,7 @@
       <button onclick="toggleAllSolutions(true)">Hide all solutions</button>
     </div>
     <!-- Generate button output -->
-    <table id="astable" class="padded">
+    <table id="astable" class="padded as">
       <tr>
         
       </tr>

@@ -11,21 +11,17 @@ for (poem in poems) {
     label.innerHTML = " " + poems[poem].name
 
     const container = document.getElementById("poemchoice")
-    let end
-    if (poems[poem].half == 1) {
-      end = document.getElementById("selectall1")
-    } else {
-      end = document.getElementById("selectall2")
-    }
+    let end = document.getElementById("selectall"+poems[poem].half)
     container.insertBefore(checkbox, end)
     container.insertBefore(label, end)
     container.insertBefore(document.createElement("br"), end)
   }//end if
 }//end for
 
-if (typeof(Storage) !== "undefined") { //local storage handler
+//read local storage
+if (typeof(Storage) !== "undefined") { 
     const selectFirstHalf = document.getElementById("selectall1")
-    selectFirstHalf.checked = localStorage.ASfirstHalf == "true" ? true : false
+    selectFirstHalf.checked = localStorage["ASfirstHalf"] == "true" ? true : false
 
     const selectSecondHalf = document.getElementById("selectall2")
     selectSecondHalf.checked = localStorage.ASsecondHalf == "true" ? true : false
@@ -71,6 +67,8 @@ function getNthOccurrence(string, substring, index) {
   }//end for
 }//end func
 
+
+
 function generate(investigate = false) {
   //investigate param - whether to be in 'investigate' mode
   //get list of poems to include
@@ -88,7 +86,7 @@ function generate(investigate = false) {
   //save choices
   if (typeof(Storage) !== "undefined") { //local storage handler
     const selectFirstHalf = document.getElementById("selectall1")
-    localStorage.ASfirstHalf = selectFirstHalf.checked
+    localStorage["ASfirstHalf"] = selectFirstHalf.checked
     
     const selectSecondHalf = document.getElementById("selectall2")
     localStorage.ASsecondHalf = selectSecondHalf.checked
@@ -97,7 +95,7 @@ function generate(investigate = false) {
     localStorage.ASnumberOfWords = savedNumberOfWords.value
 
     for (poem in poems) {
-      if (allowedPoems.includes(poem)) { //poem isb checked
+      if (allowedPoems.includes(poem)) { //poem is checked
         localStorage["AS"+poem] = true
       } else { //poem is not checked
         localStorage["AS"+poem] = false
@@ -278,6 +276,7 @@ function generate(investigate = false) {
   error.innerHTML = ""
 }//end generate() func
 
+//shows/hides a specific solution
 function toggleSolution(id) {
   let toToggle = document.getElementById("aAndS" + id)
   if (toToggle.hidden) {
@@ -285,8 +284,9 @@ function toggleSolution(id) {
   } else {
     toToggle.hidden = true
   }
-}
+} 
 
+//shows/hides all solutions
 function toggleAllSolutions(hide) {
   let table = document.getElementById('astable')
   for (let i = 0; i<table.children.length; i++) {
@@ -299,8 +299,9 @@ function toggleAllSolutions(hide) {
     }
     }
   }
-}
+} 
 
+//selects/deselects all poems in section/"half"
 function toggleAllPoems(half) {
   let form = document.getElementById('poemchoice');
   let selectAll = document.getElementById("selectall" + half)
@@ -313,6 +314,6 @@ function toggleAllPoems(half) {
       element.checked = selectAll.checked //change to match selectall
     }
   }//end tagname/checked if
-}//end for
+}
 
 
