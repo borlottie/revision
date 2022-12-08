@@ -19,12 +19,11 @@ for (poem in poems) {
 }//end for
 
 //read local storage
-if (typeof(Storage) !== "undefined") { 
-    const selectFirstHalf = document.getElementById("selectall1")
-    selectFirstHalf.checked = localStorage["ASfirstHalf"] == "true" ? true : false
-
-    const selectSecondHalf = document.getElementById("selectall2")
-    selectSecondHalf.checked = localStorage.ASsecondHalf == "true" ? true : false
+if (typeof(Storage) !== "undefined") {
+    for (let i = 1; i<=halves; i++) { //iterate over 'halves'
+      const half = document.getElementById("selectall"+i)
+      half.checked = localStorage["ASHalf"+i] == "true" ? true : false
+    }
 
     const savedNumberOfWords = document.getElementById("count")
     savedNumberOfWords.value = localStorage.ASnumberOfWords
@@ -35,9 +34,15 @@ if (typeof(Storage) !== "undefined") {
     let form = document.getElementById('poemchoice');
     for (let i = 0; i < form.children.length; i++) { //iterate over elements in poemchoice div
       let element = form.children[i]
-      if (element.type == "checkbox" //it's a checkbox
-          && !element.id.includes("selectall")) { //and it's not a select all button
-        element.checked = localStorage["AS"+element.value] == "true" ? true : false
+      if (element.type == "checkbox" && !element.id.includes("selectall")) { //it's a checkbox and not a select all button
+        const savedVal = localStorage["AS"+element.value]
+        if (savedVal == "true") {
+          element.checked = true
+        } else if (savedVal == "false") {
+          element.checked = false
+        } else {
+          element.checked = localStorage["ASHalf"+poems[element.value].half]
+        }
       }//end tagname/checked if
     }//end for
   }
@@ -85,12 +90,11 @@ function generate(investigate = false) {
 
   //save choices
   if (typeof(Storage) !== "undefined") { //local storage handler
-    const selectFirstHalf = document.getElementById("selectall1")
-    localStorage["ASfirstHalf"] = selectFirstHalf.checked
+    for (let i = 1; i<=halves; i++) { //iterate over 'halves'
+      const half = document.getElementById("selectall"+i)
+      localStorage["ASHalf"+i] = half.checked
+    }
     
-    const selectSecondHalf = document.getElementById("selectall2")
-    localStorage.ASsecondHalf = selectSecondHalf.checked
-
     const savedNumberOfWords = document.getElementById("count")
     localStorage.ASnumberOfWords = savedNumberOfWords.value
 
