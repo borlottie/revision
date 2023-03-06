@@ -15,13 +15,7 @@ for (poem in poems) {
     label.innerHTML = " " + poems[poem].name
 
     const container = document.getElementById("poemchoice")
-    let end
-    if (poems[poem].half == 1) {
-      end = document.getElementById("selectall1")
-    } else {
-      end = document.getElementById("selectall2")
-    }
-    
+    let end = document.getElementById("selectall"+poems[poem].half)    
     container.insertBefore(checkbox, end)
     container.insertBefore(label, end)
     container.insertBefore(document.createElement("br"), end)
@@ -30,19 +24,26 @@ for (poem in poems) {
 
 //load saved options
 if (typeof(Storage) !== "undefined") { //local storage handler
-    const selectFirstHalf = document.getElementById("selectall1")
-  
-    selectFirstHalf.checked = localStorage.SEENfirstHalf == "true" ? true : false
-
-    const selectSecondHalf = document.getElementById("selectall2")
-    selectSecondHalf.checked = localStorage.SEENsecondHalf == "true" ? true : false
+    for (let i = 1; i<=halves; i++) { //iterate over 'halves'
+      const half = document.getElementById("selectall"+i)
+      if (half) {
+        half.checked = localStorage["SEENHalf"+i] == "true" ? true : false
+      }
+    }
 
     let form = document.getElementById('poemchoice');
     for (let i = 0; i < form.children.length; i++) { //iterate over elements in poemchoice div
       let element = form.children[i]
       if (element.type == "checkbox" //it's a checkbox
           && !element.id.includes("selectall")) { //and it's not a select all button
-        element.checked = localStorage["SEEN"+element.value] == "true" ? true : false
+        const savedVal = localStorage["SEEN"+element.value]
+        if (savedVal == "true") {
+          element.checked = true
+        } else if (savedVal == "false") {
+          element.checked = false
+        } else {
+          element.checked = localStorage["SEENHalf"+poems[element.value].half]
+        }
       }//end tagname/checked if
     }//end for
   countWords()
@@ -53,11 +54,13 @@ function saveSettings() {
 
   //save to local storage
   if (typeof(Storage) !== "undefined") { //local storage handler
-    const selectFirstHalf = document.getElementById("selectall1")
-    localStorage.SEENfirstHalf = selectFirstHalf.checked
     
-    const selectSecondHalf = document.getElementById("selectall2")
-    localStorage.SEENsecondHalf = selectSecondHalf.checked
+    for (let i = 1; i<=halves; i++) { //iterate over 'halves'
+      const half = document.getElementById("selectall"+i)
+      if (half) {
+        localStorage["SEENHalf"+i] = half.checked
+      }
+    }
 
     for (poem in poems) {
       if (allowedPoems.includes(poem)) { //poem isb checked
@@ -99,7 +102,7 @@ function generateSeens() {
     const englishHeaderText = document.createElement("h3")
     englishHeaderText.innerHTML = poem.englishName
     englishHeader.appendChild(englishHeaderText)
-    englishHeader.hidden = true
+    englishHeader.style.visibility = "hidden"
     englishHeader.id = poemid
 
     headerRow.appendChild(latinHeader)
@@ -115,7 +118,7 @@ function generateSeens() {
       const english = document.createElement("td")
       english.innerHTML = poems[poemid].translations[line]
       english.id = poemid+"line"+line
-      english.hidden = true
+      english.style.visibility = "hidden"
 
       row.appendChild(latin)
       row.appendChild(english)
@@ -144,22 +147,22 @@ function toggleAllPoems(half) {
 function togglePoemLine(line) {
   //format of line: Cat5line4
   let toToggle = document.getElementById(line)
-  if (toToggle.hidden) {
-    toToggle.hidden = false
+  if (toToggle.style.visibility == "hidden") {
+    toToggle.style.visibility = "visible"
   } else {
-    toToggle.hidden = true
+    toToggle.style.visibility = "hidden"
   }
 }
 
 function toggleFullPoem(poemid) {
   const table = document.getElementById("seenstable")
   const header = document.getElementById(poemid)
-  const toShow = header.hidden
+  const toShow = header.style.visibility == "hidden"
   
   for (let i = 0; i<table.children.length; i++) {
     let englishCell = table.children[i].children[1] //2nd element of the row
     if (englishCell.id.includes(poemid)) {
-      englishCell.hidden = toShow ? false : true
+      englishCell.style.visibility = toShow ? "visible" : "hidden"
     }
   }
 }
@@ -169,7 +172,7 @@ function toggleEverything(hide) {
   let table = document.getElementById('seenstable')
   for (let i = 0; i<table.children.length; i++) {
     const cell = table.children[i].children[1]
-    cell.hidden = (hide ? true : false)
+    cell.style.visibility = (hide ? "hidden" : "visible")
   }
 }
 

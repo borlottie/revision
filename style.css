@@ -97,3 +97,7 @@ table td {
 table.as td {
   width: 50%;
 }
+
+button {
+  text-align: left;
+}

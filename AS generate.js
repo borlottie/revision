@@ -22,7 +22,9 @@ for (poem in poems) {
 if (typeof(Storage) !== "undefined") {
     for (let i = 1; i<=halves; i++) { //iterate over 'halves'
       const half = document.getElementById("selectall"+i)
-      half.checked = localStorage["ASHalf"+i] == "true" ? true : false
+      if (half) {
+        half.checked = localStorage["ASHalf"+i] == "true" ? true : false
+      }
     }
 
     const savedNumberOfWords = document.getElementById("count")
@@ -92,7 +94,9 @@ function generate(investigate = false) {
   if (typeof(Storage) !== "undefined") { //local storage handler
     for (let i = 1; i<=halves; i++) { //iterate over 'halves'
       const half = document.getElementById("selectall"+i)
-      localStorage["ASHalf"+i] = half.checked
+      if (half) {
+        localStorage["ASHalf"+i] = half.checked
+      }
     }
     
     const savedNumberOfWords = document.getElementById("count")

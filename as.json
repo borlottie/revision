@@ -1,4 +1,4 @@
-var halves = 3
+var halves = 4
 
 var poems = {
   "Cat5": {
@@ -2020,11 +2020,29 @@ var poems = {
       {"word":"comam","index":0,"solution":"noun acc obj of verb cinge"},
     ],
   },
+  "Cae4.20": {
+    "name":"Caesar IV.XX",
+    "englishName":"Caesar 4.20. Caesar Prepares to Invade Britain",
+    "wordCount":0,
+    "half":3,
+    "latin":[
+      "Exigua parte aestatis reliqua Caesar, etsi in his locis, quod (...), maturae sunt hiemes, tamen in Britanniam proficisci contendit, quod omnibus fere Gallicis bellis hostibus nostris inde subministrata auxilia intellegebat,",
+      "et si tempus anni ad bellum gerendum deficeret, tamen magno sibi usui fore arbitrabatur, si modo insulam adiisset, genus hominum perspexisset, loca, portus, aditus cognovisset; quae omnia fere Gallis erant incognita.",
+      "Neque enim temere praeter mercatores illo adit quisquam, neque his ipsis quicquam praeter oram maritimam atque eas regiones quae sunt contra Galliam notum est.",
+      "Itaque vocatis ad se undique mercatoribus, neque quanta esset insulae magnitudo neque quae aut quantae nationes incolerent, neque quem usum belli haberent aut quibus institutis uterentur, neque qui essent ad maiorem navium multitudinem idonei portus reperire poterat."
+    ],
+    "translations":[
+      "In the small remaining part of summer Caesar, though in these places, because (...) the winters are early, nevertheless strove to set out into Britain, because he understood that ‘in’ almost all the Gallic wars help had been provided to our enemy from there;",
+      "and if the time of year were ‘unsuitable' 'to wage' war, nevertheless he thought ‘that it’ would be ‘of’ great use to himself, if he’d only gone towards the island, examined ‘its’ race of ppl, and got to know ‘their’ places, harbours, ‘and landing places’; all things which were generally unknown to the Gauls.",
+      "For neither did anyone except merchants hardly ever go towards that ‘place’, nor is anything known by these ‘people’ themselves except the coast & those regions which are facing Gaul.",
+      "And so, with merchants called to him from all sides, he could find out neither how big the island’s size was nor which or how ‘many’ tribes lived ‘there’, nor what experience / method of war they had or which laws / customs they used, nor which harbours were suitable for a rather great number of ships."
+    ]
+  },
   "Cae5.38": {
     "name":"Caesar V.XXXVIII",
     "englishName":"Caesar 5.38",
     "wordCount":78,
-    "half":3,
+    "half":4,
     "latin": [
       "Hac victoria sublatus Ambiorix statim cum equitatu in Aduatucos, qui erant eius regno finitimi, proficiscitur; neque noctem neque diem intermittit peditatumque subsequi iubet. Re demonstrata Aduatucisque concitatis postero die in Nervios pervenit hortaturque, ne sui in perpetuum liberandi atque ulciscendi Romanos pro eis quas acceperint iniuriis occasionem dimittant: interfectos esse legatos duos magnamque partem exercitus interisse demonstrat; nihil esse negoti subito oppressam legionem quae cum Cicerone hiemet interfici; se ad eam rem profitetur adiutorem. Facile hac oratione Nerviis persuadet."
     ],
@@ -2105,7 +2123,7 @@ var poems = {
     "name":"Caesar V.XXXIX",
     "englishName":"Caesar 5.39",
     "wordCount":99,
-    "half":3,
+    "half":4,
     "latin":[
       "Itaque confestim dimissis nuntiis ad Ceutrones, Grudios, Levacos, Pleumoxios, Geidumnos, qui omnes sub eorum imperio sunt, quam maximas manus possunt cogunt et de improviso ad Ciceronis hiberna advolant nondum ad eum fama de Tituri morte perlata. Huic quoque accidit, quod fuit necesse, ut nonnulli milites, qui lignationis munitionisque causa in silvas discessissent, repentino equitum adventu interciperentur. His circumventis magna manu Eburones, Nervii, Aduatuci atque horum omnium socii et clientes legionem oppugnare incipiunt. Nostri celeriter ad arma concurrunt, vallum conscendunt. Aegre is dies sustentatur, quod omnem spem hostes in celeritate ponebant atque hanc adepti victoriam in perpetuum se fore victores confidebant."
     ],
@@ -2206,7 +2224,7 @@ var poems = {
     "name":"Caesar V.XL",
     "englishName":"Caesar 5.40",
     "wordCount":119,
-    "half":3,
+    "half":4,
     "latin":[
       "Mittuntur ad Caesarem confestim ab Cicerone litterae magnis propositis praemiis, si pertulissent: obsessis omnibus viis missi intercipiuntur. Noctu ex materia, quam munitionis causa comportaverant, turres admodum CXX excitantur incredibili celeritate; quae deesse operi videbantur, perficiuntur. Hostes postero die multo maioribus coactis copiis castra oppugnant, fossam complent. Eadem ratione, qua pridie, ab nostris resistitur. Hoc idem reliquis deinceps fit diebus. Nulla pars nocturni temporis ad laborem intermittitur; non aegris, non vulneratis facultas quietis datur. Quaecumque ad proximi diei oppugnationem opus sunt noctu comparantur; multae praeustae sudes, magnus muralium pilorum numerus instituitur; turres contabulantur, pinnae loricaeque ex cratibus attexuntur. Ipse Cicero, cum tenuissima valetudine esset, ne nocturnum quidem sibi tempus ad quietem relinquebat, ut ultro militum concursu ac vocibus sibi parcere cogeretur."
     ],
@@ -2326,7 +2344,7 @@ var poems = {
     "name":"Caesar V.XLI",
     "englishName":"Caesar 5.41",
     "wordCount":131,
-    "half":3,
+    "half":4,
     "latin":[
       "Tunc duces principesque Nerviorum qui aliquem sermonis aditum causamque amicitiae cum Cicerone habebant colloqui sese velle dicunt. Facta potestate eadem quae Ambiorix cum Titurio egerat commemorant: omnem esse in armis Galliam; Germanos Rhenum transisse; Caesaris reliquorumque hiberna oppugnari. Addunt etiam de Sabini morte: Ambiorigem ostentant fidei faciendae causa. Errare eos dicunt, si quidquam ab his praesidi(i) sperent, qui suis rebus diffidant; sese tamen hoc esse in Ciceronem populumque Romanum animo, ut nihil nisi hiberna recusent atque hanc inveterascere consuetudinem nolint: licere illis incolumibus per se ex hibernis discedere et quascumque in partes velint sine metu proficisci. Cicero ad haec unum modo respondit: non esse consuetudinem populi Romani accipere ab hoste armato condicionem: si ab armis discedere velint, se adiutore utantur legatosque ad Caesarem mittant; sperare pro eius iustitia, quae petierint, impetraturos."
     ],
@@ -2450,7 +2468,7 @@ var poems = {
     "name":"Caesar V.XLII",
     "englishName":"Caesar 5.42",
     "wordCount":85,
-    "half":3,
+    "half":4,
     "latin":[
       "Ab hac spe repulsi Nervii vallo pedum IX et fossa pedum XV hiberna cingunt. Haec et superiorum annorum consuetudine ab nobis cognoverant et, quos clam de exercitu habebant captivos, ab eis docebantur; sed nulla ferramentorum copia quae esset ad hunc usum idonea, gladiis caespites circumcidere, manibus sagulisque terram exhaurire nitebantur. Qua quidem ex re hominum multitudo cognosci potuit: nam minus horis tribus milium pedum XV in circuitu munitionem perfecerunt reliquisque diebus turres ad altitudinem valli, falces testudinesque, quas idem captivi docuerant, parare ac facere coeperunt."
     ],
@@ -2533,7 +2551,7 @@ var poems = {
     "name":"Caesar V.XLIII",
     "englishName":"Caesar 5.43",
     "wordCount":175,
-    "half":3,
+    "half":4,
     "latin":[
       "Septimo oppugnationis die maximo coorto vento ferventes fusili ex argilla glandes fundis et fervefacta iacula in casas, quae more Gallico stramentis erant tectae, iacere coeperunt. Hae celeriter ignem comprehenderunt et venti magnitudine in omnem locum castrorum distulerunt. Hostes maximo clamore sicuti parta iam atque explorata victoria turres testudinesque agere et scalis vallum ascendere coeperunt. At tanta militum virtus atque ea praesentia animi fuit, ut, cum undique flamma torrerentur maximaque telorum multitudine premerentur suaque omnia impedimenta atque omnes fortunas conflagrare intellegerent, non modo demigrandi causa de vallo decederet nemo, sed paene ne respiceret quidem quisquam, ac tum omnes acerrime fortissimeque pugnarent. Hic dies nostris longe gravissimus fuit; sed tamen hunc habuit eventum, ut eo die maximus numerus hostium vulneraretur atque interficeretur, ut se sub ipso vallo constipaverant recessumque primis ultimi non dabant. Paulum quidem intermissa flamma et quodam loco turri adacta et conti(n)gente vallum tertiae cohortis centuriones ex eo, quo stabant, loco recesserunt suosque omnes removerunt, nutu vocibusque hostes, si introire vellent, vocare coeperunt; quorum progredi ausus est nemo. Tum ex omni parte lapidibus coniectis deturbati, turrisque succensa est."
     ],
@@ -2719,7 +2737,7 @@ var poems = {
     "name":"Caesar V.XLIV",
     "englishName":"Caesar 5.44",
     "wordCount":209,
-    "half":3,
+    "half":4,
     "latin":[
       "Erant in ea legione fortissimi viri, centuriones, qui primis ordinibus approp(r)inquarent, Titus Pullo et Lucius Vorenus. Hi perpetuas inter se controversias habebant, quinam anteferretur, omnibusque annis de locis summis simultatibus contendebant. Ex his Pullo, cum acerrime ad munitiones pugnaretur, \"Quid dubitas,\" inquit, \" Vorene? aut quem locum tuae probandae virtutis exspectas ? hic dies de nostris controversiis iudicabit.\" Haec cum dixisset, procedit extra munitiones quaque pars hostium confertissima est visa irrumpit. Ne Vorenus quidem tum sese vallo continet, sed omnium veritus existimationem subsequitur. Mediocri spatio relicto Pullo pilum in hostes immittit atque unum ex multitudine procurrentem traicit; quo percusso et exanimato hunc scutis protegunt, in hostem tela universi coniciunt neque dant regrediendi facultatem. Transfigitur scutum Pulloni et verutum in balteo defigitur. Avertit hic casus vaginam et gladium educere conanti dextram moratur manum, impeditumque hostes circumsistunt. Succurrit inimicus illi Vorenus et laboranti subvenit. Ad hunc se confestim a Pullone omnis multitudo convertit: illum veruto arbitrantur occisum. Gladio comminus rem gerit Vorenus atque uno interfecto reliquos paulum propellit; dum cupidius instat, in locum deiectus inferiorem concidit. Huic rursus circumvento fert subsidium Pullo, atque ambo incolumes compluribus interfectis summa cum laude sese intra munitiones recipiunt. Sic fortuna in contentione et certamine utrumque versavit, ut alter alteri inimicus auxilio salutique esset, neque diiudicari posset, uter utri virtute anteferendus videretur."
     ],
@@ -2928,7 +2946,7 @@ var poems = {
     "name":"Caesar V.XLV",
     "englishName":"Caesar 5.45",
     "wordCount":94,
-    "half":3,
+    "half":4,
     "latin":[
       "Quanto erat in dies gravior atque asperior oppugnatio, et maxime quod magna parte militum confecta vulneribus res ad paucitatem defensorum pervenerat, tanto crebriores litterae nuntiique ad Caesarem mittebantur; quorum pars deprehensa in conspectu nostrorum militum cum cruciatu necabatur. Erat unus intus Nervius nomine Vertico, loco natus honesto, qui a prima obsidione ad Ciceronem perfugerat suamque ei fidem praestiterat. Hic servo spe libertatis magnisque persuadet praemiis, ut litteras ad Caesarem deferat. Has ille in iaculo illigatas effert et Gallus inter Gallos sine ulla suspicione versatus ad Caesarem pervenit. Ab eo de periculis Ciceronis legionisque cognoscitur."
     ],
@@ -3017,7 +3035,7 @@ var poems = {
     "name":"Caesar V.XLVI",
     "englishName":"Caesar 5.46",
     "wordCount":85,
-    "half":3,
+    "half":4,
     "latin":[
       "Caesar acceptis litteris hora circiter XI diei statim nuntium in Bellovacos ad M. Crassum quaestorem mittit, cuius hiberna aberant ab eo milia passuum XXV; iubet media nocte legionem proficisci celeriterque ad se venire. Exit cum nuntio Crassus. Alterum ad Gaium Fabium legatum mittit, ut in Atrebatium fines legionem adducat, qua sibi iter faciendum sciebat. Scribit Labieno, si rei publicae commodo facere posset, cum legione ad fines Nerviorum veniat. Reliquam partem exercitus, quod paulo aberat longius, non putat exspectandam; equites circiter quadri(n)gentos ex proximis hibernis colligit."
     ],
@@ -3100,7 +3118,7 @@ var poems = {
     "name":"Caesar V.XLVII",
     "englishName":"Caesar 5.47",
     "wordCount":113,
-    "half":3,
+    "half":4,
     "latin":[
       "Hora circiter tertia ab antecursoribus de Crassi adventu certior factus eo die milia passuum XX pro( )cedit. Crassum Samarobrivae praeficit legionemque attribuit, quod ibi impedimenta exercitus, obsides civitatum, litteras publicas frumentumque omne quod eo tolerandae hiemis causa devexerat relinquebat. Fabius, ut imperatum erat, non ita multum moratus in itinere cum legione occurrit. Labienus interitu Sabini et caede cohortium cognita, cum omnes ad eum Treverorum copiae venissent, veritus, si ex hibernis fugae similem profectionem fecisset, ut hostium impetum sustinere posset, praesertim quos recenti victoria efferri sciret, litteras Caesari remittit, quanto cum periculo legionem ex hibernis educturus esset; rem gestam in Eburonibus perscribit; docet omnes equitatus peditatusque copias Treverorum tria milia passuum longe ab suis castris consedisse."
     ],
@@ -3206,7 +3224,7 @@ var poems = {
     "name":"Caesar V.XLVIII",
     "englishName":"Caesar 5.48",
     "wordCount":145,
-    "half":3,
+    "half":4,
     "latin":[
       "Caesar consilio eius probato, etsi opinione trium legionum deiectus ad duas redierat, tamen unum communis salutis auxilium in celeritate ponebat. Venit magnis itineribus in Nerviorum fines. Ibi ex captivis cognoscit, quae apud Ciceronem gerantur, quantoque in periculo res sit. Tum cuidam ex equitibus Gallis magnis praemiis persuadet uti ad Ciceronem epistolam deferat. Hanc Graecis conscriptam litteris mittit, ne intercepta epistola nostra ab hostibus consilia cognoscantur. Si adire non possit, monet ut tragulam cum epistola ad amentum deligata intra munitionem castrorum abiciat. In litteris scribit se cum legionibus profectum celeriter adfore; hortatur ut pristinam virtutem retineat. Gallus periculum veritus, ut erat praeceptum, tragulam mittit. Haec casu ad turrim adhaesit neque ab nostris biduo animadversa tertio die a quodam milite conspicitur, dempta ad Ciceronem defertur. Ille perlectam in conventu militum recitat maximaque omnes laetitia adficit. Tum fumi incendiorum procul videbantur; quae res omnem dubitationem adventus legionum expulit."
     ],
@@ -3342,7 +3360,7 @@ var poems = {
     "name":"Caesar V.XLIX",
     "englishName":"Caesar 5.49",
     "wordCount":158,
-    "half":3,
+    "half":4,
     "latin":[
       "Galli re cognita per exploratores obsidionem relinquunt, ad Caesarem omnibus copiis contendunt. Hae erant armata circiter milia LX. Cicero data facultate Gallum ab eodem Verticone, quem supra demonstravimus, repetit, qui litteras ad Caesarem deferat; hunc admonet, iter caute diligenterque faciat: perscribit in litteris hostes ab se discessisse omnemque ad eum multitudinem convertisse. Quibus litteris circiter media nocte Caesar adlatis suos facit certiores eosque ad dimicandum animo confirmat. Postero die luce prima movet castra et circiter milia passuum quattuor progressus trans vallem et rivum multitudinem hostium conspicatur. Erat magni periculi res tantulis copiis iniquo loco dimicare; tum, quoniam obsidione liberatum Ciceronem sciebat, aequo animo remittendum de celeritate existimabat: consedit et quam aequissimo loco potest castra communit atque haec, etsi erant exigua per se vix hominum milium septem praesertim nullis cum impedimentis, tamen angustiis viarum quam maxime potest contrahit, eo consilio, ut in summam contemptionem hostibus veniat. Interim speculatoribus in omnes partes dimissis explorat quo commodissime itinere vallem transire possit."
     ],
@@ -3481,7 +3499,7 @@ var poems = {
     "name":"Caesar V.L",
     "englishName":"Caesar 5.50",
     "wordCount":97,
-    "half":3,
+    "half":4,
     "latin":[
       "Eo die parvulis equestribus proeliis ad aquam factis utrique sese suo loco continent: Galli, quod ampliores copias, quae nondum convenerant, exspectabant; Caesar, si forte timoris simulatione hostes in suum locum elicere posset, ut citra vallem pro castris proelio contenderet, si id efficere non posset, ut exploratis itineribus minore cum periculo vallem rivumque transiret. Prima luce hostium equitatus ad castra accedit proeliumque cum nostris equitibus committit. Caesar consulto equites cedere seque in castra recipere iubet, simul ex omnibus partibus castra altiore vallo muniri portasque obstrui atque in his administrandis rebus quam maxime concursari et cum simulatione agi timoris iubet."
     ],
@@ -3578,7 +3596,7 @@ var poems = {
     "name":"Caesar V.LI",
     "englishName":"Caesar 5.51",
     "wordCount":106,
-    "half":3,
+    "half":4,
     "latin":[
       "Quibus omnibus rebus hostes invitati copias traducunt aciemque iniquo loco constituunt, nostris vero etiam de vallo deductis propius accedunt et tela intra munitionem ex omnibus partibus coniciunt praeconibusque circummissis pronuntiari iubent, seu quis Gallus seu Romanus velit ante horam tertiam ad se transire, sine periculo licere; post id tempus non fore potestatem: ac sic nostros contempserunt, ut obstructis in speciem portis singulis ordinibus caespitum, quod ea non posse introrumpere videbantur, alii vallum manu scindere, alii fossas complere inciperent. Tum Caesar omnibus portis eruptione facta equitatuque emisso celeriter hostes in fugam dat, sic uti omnino pugnandi causa resisteret nemo, magnumque ex eis numerum occidit atque omnes armis exuit."
     ],
@@ -3684,7 +3702,7 @@ var poems = {
     "name":"Caesar V.LII",
     "englishName":"Caesar 5.52",
     "wordCount":125,
-    "half":3,
+    "half":4,
     "latin":[
       "Longius prosequi veritus, quod silvae paludesque intercedebant neque etiam parvulo detrimento illorum locum relinqui videbat, omnibus suis incolumibus copiis eodem die ad Ciceronem pervenit. Institutas turres, testudines munitionesque hostium admiratur; legione producta cognoscit non decimum quemque esse reliquum militem sine vulnere: ex his omnibus iudicat rebus, quanto cum periculo et quanta cum virtute res sint administratae. Ciceronem pro eius merito legionemque collaudat; centuriones singillatim tribunosque militum appellat, quorum egregiam fuisse virtutem testimonio Ciceronis cognoverat. De casu Sabini et Cottae certius ex captivis cognoscit. Postero die contione habita rem gestam proponit, milites consolatur et confirmat: quod detrimentum culpa et temeritate legati sit acceptum, hoc aequiore animo ferendum docet, quod beneficio deorum immortalium et virtute eorum expiato incommodo neque hostibus diutina laetatio neque ipsis longior dolor relinquatur."
     ],
