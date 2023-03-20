@@ -2205,6 +2205,25 @@ var poems = {
     ],
   },
 
+  "Cae4.29": {
+    "name":"Caesar IV.XXIX",
+    "englishName":"Caesar 4.29. The Britons Sue for Peace but the Roman Fleet is Destroyed by a Storm",
+    "wordCount":0,
+    "half":3,
+    "latin":[
+      "Eadem nocte accidit ut esset luna plena, qui dies maritimos aestus maximos in Oceano efficere consuevit, nostrisque id erat incognitum.",
+      "Ita uno tempore et longas naves, (...) quas Caesar in aridum subduxerat, aestus complebat, et onerarias, quae ad ancoras erant deligatae, tempestas adflictabat, neque ulla nostris facultas (...) auxiliandi dabatur.",
+      "Compluribus navibus fractis, reliquae cum essent funibus, ancoris reliquisque armamentis amissis ad navigandum inutiles, magna, (...), totius exercitus perturbatio facta est.",
+      "Neque enim naves erant aliae quibus reportari possent, et omnia deerant quae ad reficiendas naves erant usui, et, (...), frumentum in his locis in hiemem provisum non erat.",
+    ],
+    "translations":[
+      "On the same night it happened that there was a full moon, a time which was accustomed to bring about very big coastal tides from the Ocean, and it was unknown to our ‘men’.",
+      "So, at the one time, both the tide filled the warships, (...) which Caesar had beached on dry ‘land’, and the storm was distressing the transport ‘ships’, which were tied to ‘their’ anchors, and ‘no’ opportunity ‘for supporting’ our men was given.",
+      "With several ships rekt, while ‘those’ remaining were, with ‘their’ ropes, anchors and ‘their’ remaining gear lost, useless for sailing, a great confusion happened ‘within’ the whole army, (...)",
+      "For there weren’t other ships ‘in’ which they could be carried back, and everything which was ‘of’ use ‘to repair’ ships was missing, and (...) corn ‘for’ the winter hadn’t been provided in these places.",
+    ],
+  },
+
   "Cae5.38": {
     "name":"Caesar V.XXXVIII",
     "englishName":"Caesar 5.38",
