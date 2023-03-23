@@ -2039,7 +2039,6 @@ var poems = {
       "And so, with merchants called to him from all sides, he could find out neither how big the island’s size was nor which or how ‘many’ tribes lived ‘there’, nor what experience / method of war they had or which laws / customs they used, nor which harbours were suitable for a rather great number of ships."
     ]
   },
-
   "Cae4.21": {
     "name":"Caesar IV.XXI",
     "englishName":"Caesar 4.21. Caesar Prepares to Invade Britain",
@@ -2066,7 +2065,6 @@ var poems = {
       "Volusenus, with all the regions observed as much as 'it' (...) could (...), returns to Caesar on the 5th day and reports ‘what’ he’d observed there."
     ],
   },
-
   "Cae4.22": {
     "name":"Caesar IV.XXII",
     "englishName":"Caesar 4.22. Caesar Prepares to Invade Britain",
@@ -2081,7 +2079,6 @@ var poems = {
       "18 transport ships approached here, which were held 8 miles from ‘that’ place by the wind, that they couldn’t come into the same harbour: he distributed these ‘ships’ to ‘his’ cavalry."
     ],
   },
-
   "Cae4.23": {
     "name":"Caesar IV.XXIII",
     "englishName":"Caesar 4.23. The Invasion Fleet Sails",
@@ -2104,7 +2101,6 @@ var poems = {
       "With these ‘men’ dismissed, having come upon both favourable wind and tide at the one time, with the signal given, and with the anchors raised, having advanced about 7 miles from that place, he stationed ‘his’ ships ‘on’ an open and clear shore."
     ],
   },
-
   "Cae4.24": {
     "name":"Caesar IV.XXIV",
     "englishName":"Caesar 4.24. The Landing",
@@ -2124,7 +2120,6 @@ var poems = {
       "Our ‘men’, thoroughly terrified by ‘these’ circumstances and completely unskilled ‘in’ this kind of battle, didn’t use the same liveliness and application which they’d ‘been accustomed’ to use in battles on land."
     ],
   },
-
   "Cae4.25": {
     "name":"Caesar IV.XXV",
     "englishName":"Caesar 4.25. The Landing",
@@ -2147,7 +2142,6 @@ var poems = {
       "Also, when ‘men’ from the nearest ships had (...) seen these ‘men’, having followed closely, they approached the enemy."
     ],
   },
-
   "Cae4.26": {
     "name":"Caesar IV.XXVI.",
     "englishName":"Caesar 4.26. The Landing",
@@ -2168,7 +2162,6 @@ var poems = {
       "As soon as our ‘men’ had taken up a position on dry ‘land’, with all his own ‘men’ having followed ‘them’, they made an attack on the enemy and put them into flight; ‘but’ they couldn't pursue ‘them’ any further, because the cavalry hadn’t been able to hold ‘its’ course and reach the island. This one thing failed Caesar, compared to ‘his’ former success."
     ],
   },
-
   "Cae4.27": {
     "name":"Caesar IV.XXVII",
     "englishName":"Caesar 4.27. The Britons Sue for Peace but the Roman Fleet is Destroyed by a Storm",
@@ -2189,7 +2182,6 @@ var poems = {
       "Meanwhile they ordered their own ‘men’ to return onto ‘their’ fields, and the chiefs ‘began’ to assemble from all ‘parts’ and to ‘surrender’ themselves and their states to Caesar."
     ],
   },
-
   "Cae4.28": {
     "name":"Caesar IV.XXVIII",
     "englishName":"Caesar 4.28. The Britons Sue for Peace but the Roman Fleet is Destroyed by a Storm",
@@ -2204,11 +2196,10 @@ var poems = {
       "When ‘these ships’ approached Britain and were seen from the camp, such a great storm suddenly rose that ‘none’ of them could hold their course, but some were brought back ‘into’ the same ‘harbour’ from which they’d set out, ‘whereas’ others, ‘to’ their own great danger, were driven off course towards the lower part of the island, which is nearer ‘towards’ the west; (...)",
     ],
   },
-
   "Cae4.29": {
     "name":"Caesar IV.XXIX",
     "englishName":"Caesar 4.29. The Britons Sue for Peace but the Roman Fleet is Destroyed by a Storm",
-    "wordCount":0,
+    "wordCount":95,
     "half":3,
     "latin":[
       "Eadem nocte accidit ut esset luna plena, qui dies maritimos aestus maximos in Oceano efficere consuevit, nostrisque id erat incognitum.",
@@ -2221,6 +2212,38 @@ var poems = {
       "So, at the one time, both the tide filled the warships, (...) which Caesar had beached on dry ‘land’, and the storm was distressing the transport ‘ships’, which were tied to ‘their’ anchors, and ‘no’ opportunity ‘for supporting’ our men was given.",
       "With several ships rekt, while ‘those’ remaining were, with ‘their’ ropes, anchors and ‘their’ remaining gear lost, useless for sailing, a great confusion happened ‘within’ the whole army, (...)",
       "For there weren’t other ships ‘in’ which they could be carried back, and everything which was ‘of’ use ‘to repair’ ships was missing, and (...) corn ‘for’ the winter hadn’t been provided in these places.",
+    ],
+  },
+  "Cae4.30": {
+    "name":"Caesar IV.XXX",
+    "englishName":"Caesar 4.30. The Britons Renew the Struggle",
+    "wordCount":76,
+    "half":3,
+    "latin":[
+      "Quibus rebus cognitis, principes Britanniae, qui post proelium ad Caesarem convenerant, inter se conlocuti, cum et equites et naves et frumentum Romanis deesse intellegerent et paucitatem militum ex castrorum exiguitate cognoscerent, (...)",
+      "optimum factu esse duxerunt rebellione facta frumento commeatuque nostros prohibere et rem in hiemem producere, quod his superatis aut reditu interclusis neminem postea belli inferendi causa in Britanniam transiturum confidebant.",
+      "Itaque rursus coniuratione facta paulatim ex castris discedere et suos clam ex agris deducere coeperunt."
+    ],
+    "translations":[
+      "With ‘these’ things learnt, when the chiefs of Britain, who’d come together to Caesar after the battle, having held a conference among themselves, realised that both cavalry and ships and corn were ‘lacking’ for the Romans and they learned ‘of’ the small number of ‘our’ soldiers from the ‘small area’ of ‘our’ camp, (...)",
+      "they reckoned that, with the revolt made, it was the best ‘plan’ to keep our ‘men’ away from corn and supplies and to draw the matter out into the winter, because, with these ‘people’ overcome or prevented from a return, they were sure that no one would cross into Britain afterwards ‘to make war’.",
+      "Therefore, with a conspiracy made again, little by little, they ‘began’ to leave the camp and secretly bring down their own ‘men’ from ‘their’ fields."
+    ],
+  },
+  "Cae4.31": {
+    "name":"Caesar IV.XXXI",
+    "englishName":"Caesar 4.31. The Britons Renew the Struggle",
+    "wordCount":70,
+    "half":3,
+    "latin":[
+      "At Caesar, etsi nondum eorum consilia cognoverat, tamen (...) fore id quod accidit suspicabatur.",
+      "Itaque ad omnes casus subsidia comparabat. Nam et frumentum ex agris cotidie in castra conferebat et, quae gravissime adflictae erant naves, earum materia atque aere ad reliquas reficiendas utebatur et quae ad eas res erant usui ex continenti comportari iubebat.",
+      "Itaque, cum summo studio a militibus administraretur, XII navibus amissis, reliquis ut navigari satis commode posset effecit."
+    ],
+    "translations":[
+      "But, although Caesar hadn’t yet got to know their plans, (...), he suspected that ‘what’ happened would ‘come to’ be.",
+      "He therefore provided relief for all misfortunes. For he both directed corn every day from the fields into the camp and used the timber and brass of those ships, which were the most heavily ‘damaged', 'to repair’ the remaining ‘ships’ and he ordered ‘things’ which were ‘of’ use for those matters to be brought in from the continent.",
+      "Therefore, when it was managed by the soldiers with the greatest enthusiasm, with 12 ships lost, he made out that ‘a journey’ could be sailed suitably enough with the remaining ‘ships’."
     ],
   },
 
