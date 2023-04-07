@@ -2022,7 +2022,7 @@ var poems = {
   },
 
   "Cae4.20": {
-    "name":"Caesar IV.XX",
+    "name":"Caesar IV.XX (4.20)",
     "englishName":"Caesar 4.20. Caesar Prepares to Invade Britain",
     "wordCount":121,
     "half":3,
@@ -2040,7 +2040,7 @@ var poems = {
     ]
   },
   "Cae4.21": {
-    "name":"Caesar IV.XXI",
+    "name":"Caesar IV.XXI (4.21)",
     "englishName":"Caesar 4.21. Caesar Prepares to Invade Britain",
     "wordCount":113,
     "half":3,
@@ -2066,7 +2066,7 @@ var poems = {
     ],
   },
   "Cae4.22": {
-    "name":"Caesar IV.XXII",
+    "name":"Caesar IV.XXII (4.22)",
     "englishName":"Caesar 4.22. Caesar Prepares to Invade Britain",
     "wordCount":50,
     "half":3,
@@ -2080,7 +2080,7 @@ var poems = {
     ],
   },
   "Cae4.23": {
-    "name":"Caesar IV.XXIII",
+    "name":"Caesar IV.XXIII (4.23)",
     "englishName":"Caesar 4.23. The Invasion Fleet Sails",
     "wordCount":148,
     "half":3,
@@ -2102,7 +2102,7 @@ var poems = {
     ],
   },
   "Cae4.24": {
-    "name":"Caesar IV.XXIV",
+    "name":"Caesar IV.XXIV (4.24)",
     "englishName":"Caesar 4.24. The Landing",
     "wordCount":110,
     "half":3,
@@ -2121,7 +2121,7 @@ var poems = {
     ],
   },
   "Cae4.25": {
-    "name":"Caesar IV.XXV",
+    "name":"Caesar IV.XXV (4.25)",
     "englishName":"Caesar 4.25. The Landing",
     "wordCount":129,
     "half":3,
@@ -2143,7 +2143,7 @@ var poems = {
     ],
   },
   "Cae4.26": {
-    "name":"Caesar IV.XXVI.",
+    "name":"Caesar IV.XXVI (4.26)",
     "englishName":"Caesar 4.26. The Landing",
     "wordCount":117,
     "half":3,
@@ -2163,7 +2163,7 @@ var poems = {
     ],
   },
   "Cae4.27": {
-    "name":"Caesar IV.XXVII",
+    "name":"Caesar IV.XXVII (4.27)",
     "englishName":"Caesar 4.27. The Britons Sue for Peace but the Roman Fleet is Destroyed by a Storm",
     "wordCount":93,
     "half":3,
@@ -2183,7 +2183,7 @@ var poems = {
     ],
   },
   "Cae4.28": {
-    "name":"Caesar IV.XXVIII",
+    "name":"Caesar IV.XXVIII (4.28)",
     "englishName":"Caesar 4.28. The Britons Sue for Peace but the Roman Fleet is Destroyed by a Storm",
     "wordCount":64,
     "half":3,
@@ -2197,7 +2197,7 @@ var poems = {
     ],
   },
   "Cae4.29": {
-    "name":"Caesar IV.XXIX",
+    "name":"Caesar IV.XXIX (4.29)",
     "englishName":"Caesar 4.29. The Britons Sue for Peace but the Roman Fleet is Destroyed by a Storm",
     "wordCount":95,
     "half":3,
@@ -2215,7 +2215,7 @@ var poems = {
     ],
   },
   "Cae4.30": {
-    "name":"Caesar IV.XXX",
+    "name":"Caesar IV.XXX (4.30)",
     "englishName":"Caesar 4.30. The Britons Renew the Struggle",
     "wordCount":76,
     "half":3,
@@ -2231,7 +2231,7 @@ var poems = {
     ],
   },
   "Cae4.31": {
-    "name":"Caesar IV.XXXI",
+    "name":"Caesar IV.XXXI (4.31)",
     "englishName":"Caesar 4.31. The Britons Renew the Struggle",
     "wordCount":70,
     "half":3,
@@ -2244,6 +2244,62 @@ var poems = {
       "But, although Caesar hadn’t yet got to know their plans, (...), he suspected that ‘what’ happened would ‘come to’ be.",
       "He therefore provided relief for all misfortunes. For he both directed corn every day from the fields into the camp and used the timber and brass of those ships, which were the most heavily ‘damaged', 'to repair’ the remaining ‘ships’ and he ordered ‘things’ which were ‘of’ use for those matters to be brought in from the continent.",
       "Therefore, when it was managed by the soldiers with the greatest enthusiasm, with 12 ships lost, he made out that ‘a journey’ could be sailed suitably enough with the remaining ‘ships’."
+    ],
+  },
+  "Cae4.32": {
+    "name":"Caesar IV.XXXII (4.32)",
+    "englishName":"Caesar 4.32. The Britons Renew the Struggle",
+    "wordCount":143,
+    "half":3,
+    "latin":[
+      "Dum ea geruntur, legione ex consuetudine una frumentatum missa (...) neque ulla ad id tempus belli suspicione interposita, cum pars hominum in agris remaneret, pars etiam in castra ventitaret, ii qui pro portis castrorum in statione erant Caesari nuntiaverunt pulverem maiorem quam consuetudo ferret in ea parte videri quam in partem legio iter fecisset.",
+      "Caesar id quod erat suspicatus aliquid novi a barbaris initum consilii, cohortes quae in statione erant secum in eam partem proficisci, (...) reliquas armari et confestim sese subsequi iussit.",
+      "Cum paulo longius a castris processisset, suos ab hostibus premi atque aegre sustinere et (...) ex omnibus partibus tela coici animadvertit.",
+      "Nam quod omni ex reliquis partibus demesso frumento pars una erat reliqua, suspicati hostes huc nostros esse venturos noctu in silvis delituerant;",
+      "tum dispersos depositis armis in metendo occupatos subito adorti paucis interfectis reliquos incertis ordinibus perturbaverant, simul equitatu atque essedis circumdederant."
+    ],
+    "translations":[
+      "While those things are being managed, with one legion (...) sent ‘to’ go foraging as usual and ‘no’ suspicion of war admitted at that time, while part of ‘his’ people remained in ‘their’ fields, ‘and another’ part even kept coming into the camp, ‘those’ who were in the sentry post in front of the camp’s gates reported to Caesar that a greater dust than custom would ‘usually’ bear in that direction was seen, into which direction the legion had marched.",
+      "Caesar, having suspected that which was ‘really the case, some’ new plan begun by the barbarians, ordered the cohorts which were in the sentry post to set out with him in that direction, (...) ‘and’ the remaining ‘cohorts’ to be armed and follow closely / support him immediately.",
+      "When he’d advanced a little further from the camp, he noticed that his ‘men’ were being pressed back by the enemy and were withstanding with difficulty and (...) missiles were being hurled from all directions.",
+      "For, because there was ‘only’ one remaining part out of the remaining parts, with all the corn reaped, having suspected that our ‘men’ would come  here, the enemy had lurked in the woods at night;",
+      "then, having suddenly attacked ‘them as they’ dispersed, with ‘their’ arms put down ‘and’ occupied ‘with’ reaping, with a few killed, they’d thrown the remaining ‘soldiers’ into disorder with uncertain lines, as soon as they’d surrounded ‘them’ with cavalry and war chariots."
+    ],
+  },
+  "Cae4.34": {
+    "name":"Caesar IV.XXXIV (4.34)",
+    "englishName":"Caesar 4.34. The Britons Renew the Struggle",
+    "wordCount":113,
+    "half":3,
+    "latin":[
+      "Quibus rebus perturbatis nostris [novitate pugnae] tempore oportunissimo Caesar auxilium tulit: namque eius adventu hostes constiterunt, nostri se ex timore receperunt.",
+      "Quo facto, ad lacessendum hostem et committendum proelium alienum esse tempus arbitratus suo se loco continuit et brevi tempore intermisso in castra legiones reduxit.",
+      "Dum haec geruntur, nostris omnibus occupatis qui erant in agris reliqui discesserunt.",
+      "Secutae sunt continuos complures dies tempestates, quae et nostros in castris continerent et hostem a pugna prohiberent.",
+      "Interim barbari nuntios in omnes partes dimiserunt paucitatemque nostrorum militum suis praedicaverunt et quanta praedae faciendae atque in perpetuum sui liberandi facultas daretur, si Romanos castris expulissent, demonstraverunt. His rebus celeriter magna multitudine peditatus equitatusque coacta ad castra venerunt."
+    ],
+    "translations":[
+      "With our ‘men’ thrown into disorder by ‘these’ circumstances [by the battle’s strangeness], Caesar bore help at a most suitable time: for, with his arrival, the enemy froze, ‘and’ our ‘men’ withdrew from ‘their’ fear.",
+      "With ‘this’ done, having thought that the time was unsuited ‘to’ striking the enemy and joining battle, he confined himself ‘in’ his post and with a short time allowed to elapse, he took the legions back into the camp.",
+      "While these things are being managed, with all our ‘men’ occupied, the remaining ‘soldiers’ who were in the fields left.",
+      "Storms followed for several days, which both confined our ‘men’ in the camp and kept the enemy away from battle.",
+      "Meanwhile the barbarians sent messengers away in all directions and they proclaimed and pointed out our soldiers’ small number to their (own) ‘people’ and how big an opportunity was being given for booty to be ‘obtained’ and ‘for’  their own ‘people’ to be freed forever, if they’d driven the Romans out from ‘their’ camp. With these advantages, with a great number of infantry and cavalry quickly gathered together, they came towards the camp."
+    ],
+  },
+  "Cae4.35": {
+    "name":"Caesar IV.XXXV (4.35)",
+    "englishName":"Caesar 4.35. Caesar beats off an attack on his camp and returns to France",
+    "wordCount":75,
+    "half":3,
+    "latin":[
+      "Caesar, etsi idem quod superioribus diebus acciderat fore videbat, ut, si essent hostes pulsi, celeritate periculum effugerent, tamen nactus equites circiter XXX, quos Commius Atrebas, de quo ante dictum est, secum transportaverat, legiones in acie pro castris constituit.",
+      "Commisso proelio diutius nostrorum militum impetum hostes ferre non potuerunt ac terga verterunt.",
+      "Quos tanto spatio secuti quantum cursu et viribus efficere potuerunt, complures ex iis occiderunt, deinde omnibus longe lateque aedificiis incensis se in castra receperunt."
+    ],
+    "translations":[
+      "Although Caesar considered that the same thing which had happened on previous days would ‘happen again’, that, if the enemy were routed, they’d escape danger with ‘their’ speed, however, having obtained around thirty horsemen, which Commius the Atrebatian, about whom it was spoken before, had transported with him (i.e. from Gaul), he arranged the legions in battle order in front of the camp.",
+      "With battle joined, the enemy could no longer endure our soldiers’ attack and turned ‘their’ backs.",
+      "Having followed ‘them’ for such a great distance as much as they could with ‘their’ speed and strength, they killed very many of them, then, with all ‘their’ buildings far and wide set on fire, they retreated into ‘their’ camp."
     ],
   },
 
