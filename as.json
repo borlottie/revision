@@ -2027,15 +2027,15 @@ var poems = {
     "wordCount":121,
     "half":3,
     "latin":[
-      "Exigua parte aestatis reliqua Caesar, etsi in his locis, quod (...), maturae sunt hiemes, tamen in Britanniam proficisci contendit, quod omnibus fere Gallicis bellis hostibus nostris inde subministrata auxilia intellegebat,",
+      "Exigua parte aestatis reliqua Caesar, etsi in his locis (...) maturae sunt hiemes, tamen in Britanniam proficisci contendit, quod omnibus fere Gallicis bellis hostibus nostris inde subministrata auxilia intellegebat,",
       "et si tempus anni ad bellum gerendum deficeret, tamen magno sibi usui fore arbitrabatur, si modo insulam adiisset, genus hominum perspexisset, loca, portus, aditus cognovisset; quae omnia fere Gallis erant incognita.",
       "Neque enim temere praeter mercatores illo adit quisquam, neque his ipsis quicquam praeter oram maritimam atque eas regiones quae sunt contra Galliam notum est.",
       "Itaque vocatis ad se undique mercatoribus, neque quanta esset insulae magnitudo neque quae aut quantae nationes incolerent, neque quem usum belli haberent aut quibus institutis uterentur, neque qui essent ad maiorem navium multitudinem idonei portus reperire poterat."
     ],
     "translations":[
-      "In the small remaining part of summer Caesar, though in these places, because (...) the winters are early, nevertheless strove to set out into Britain, because he understood that ‘in’ almost all the Gallic wars help had been provided to our enemy from there;",
-      "and if the time of year were ‘unsuitable' 'to wage' war, nevertheless he thought ‘that it’ would be ‘of’ great use to himself, if he’d only gone towards the island, examined ‘its’ race of ppl, and got to know ‘their’ places, harbours, ‘and landing places’; all things which were generally unknown to the Gauls.",
-      "For neither did anyone except merchants hardly ever go towards that ‘place’, nor is anything known by these ‘people’ themselves except the coast & those regions which are facing Gaul.",
+      "In the small remaining part of summer Caesar, though in these places (...) the winters are early, nevertheless strove to set out into Britain, because he understood that ‘in’ almost all the Gallic wars help had been provided to our enemy from there;",
+      "and if the time of year were ‘unsuitable' 'to wage' war, nevertheless he thought ‘that it’ would be ‘of’ great use to himself, if he’d only gone towards the island, examined ‘its’ race of people, and got to know ‘their’ places, harbours, ‘and landing places’; all things which were generally unknown to the Gauls.",
+      "For neither did anyone except merchants hardly ever go towards that ‘place’, nor is anything known by these ‘people’ themselves except the coast and those regions which are facing Gaul.",
       "And so, with merchants called to him from all sides, he could find out neither how big the island’s size was nor which or how ‘many’ tribes lived ‘there’, nor what experience / method of war they had or which laws / customs they used, nor which harbours were suitable for a rather great number of ships."
     ]
   },
@@ -2051,7 +2051,7 @@ var poems = {
       "Huc naves undique ex finitimis regionibus et quam superiore aestate ad Veneticum bellum fecerat classem iubet convenire.", 
       "Interim, consilio eius cognito et per mercatores perlato ad Britannos, a compluribus insulae civitatibus ad eum legati veniunt, qui polliceantur obsides dare atque imperio populi Romani obtemperare.", 
       "Quibus auditis, liberaliter pollicitus hortatusque ut in ea sententia permanerent,", 
-      "eos domum remittit (...) ipse (...) regem ibi constituerat,",
+      "eos domum remittit (cum (...) Commium, quem) ipse (...) regem ibi constituerat,",
       "Volusenus perspectis regionibus omnibus quantum ei (..) potuit, (...), V. die ad Caesarem revertitur quaeque ibi perspexisset renuntiat."
     ],
     "translations":[
@@ -2059,10 +2059,10 @@ var poems = {
       "He commissions this ‘man’ to return to him as soon as possible with all things explored.", 
       "He himself sets out with all ‘his’ forces ‘against’ the Morini [northern Gallic tribe], because from there was the shortest crossing into Britain.",
       "He orders ships from all ‘parts of’ the neighbouring regions and the fleet which he’d made the previous year for the Venetian [tribe in what’s now westernmost France] war to assemble here.",
-      "Meanwhile, with his plan learned and conveyed to the Britons thru merchants, envoys come to him from several states of the island, who promise to give hostages and to obey the Roman ppl’s command.",
+      "Meanwhile, with his plan learned and conveyed to the Britons through merchants, envoys come to him from several states of the island, who promise to give hostages and to obey the Roman people’s command.",
       "With ‘these’ things listened to, having generously promised and encouraged that they persist in that purpose,",
-      "he sends them back home (...) he himself had decided ‘to make’ king there (...).",
-      "Volusenus, with all the regions observed as much as 'it' (...) could (...), returns to Caesar on the 5th day and reports ‘what’ he’d observed there."
+      "he sends them back home (...) (with Commius, whom) he himself had decided ‘to make’ king there (...).",
+      "Volusenus, with all the regions observed as much as 'he' (...) could (...), returns to Caesar on the fifth day and reports ‘what’ he’d observed there."
     ],
   },
   "Cae4.22": {
@@ -2075,8 +2075,8 @@ var poems = {
       "Huc accedebant XVIII onerariae naves, quae ex eo loco a milibus passuum VIII vento tenebantur quo minus in eundem portum venire possent: has equitibus tribuit. ",
     ],
     "translations":[
-      "(...) With around 80 transport ships gathered together, as many as he thought to be enough ‘to transport’ 2 legions, moreover he distributed ‘the quantity’ of warships which he had to the quaestor, ‘his’ envoys and commanders.",
-      "18 transport ships approached here, which were held 8 miles from ‘that’ place by the wind, that they couldn’t come into the same harbour: he distributed these ‘ships’ to ‘his’ cavalry."
+      "(...) With around 80 transport ships gathered together, as many as he thought to be enough ‘to transport’ two legions, moreover he distributed ‘the quantity’ of warships which he had to the quaestor, ‘his’ envoys and commanders.",
+      "18 transport ships approached here, which were held eight miles from ‘that’ place by the wind, 'which' couldn’t come into the same harbour: he distributed these ‘ships’ to ‘his’ cavalry."
     ],
   },
   "Cae4.23": {
@@ -2093,12 +2093,12 @@ var poems = {
       "His dimissis et ventum et aestum uno tempore nactus secundum dato signo et sublatis ancoris circiter milia passuum septem ab eo loco progressus, aperto ac plano litore naves constituit."
     ],
     "translations":[
-      "With these matters decided, having come upon suitable weather for sailing, he cast off at about the 3rd watch and ordered the horsemen to (...) board the ships and follow him.",
-      "(...) he himself arrived ‘in’ Britain with the 1st ships at about the 4th hour of the day and there he saw the enemy’s armed forces set out on all the hills.",
+      "With these matters decided, having come upon suitable weather for sailing, he cast off at about the third watch and ordered the horsemen to (...) board the ships and follow him.",
+      "(...) he himself arrived ‘in’ Britain with the first ships at about the fourth hour of the day and there he saw the enemy’s armed forces set out on all the hills.",
       "This was the nature of ‘this’ place and the sea was confined by mountains so close, that a missile could be ‘shot’ from higher places onto the shore.",
-      "Having thought that this ‘was’ not at all a suitable place for disembarking, while the remaining ships assembled there at the 9th hour, he waited for ‘them at anchor’",
+      "Having thought that this ‘was’ not at all a suitable place for disembarking, while the remaining ships assembled there at the ninth hour, he waited for ‘them at anchor’",
       "Meanwhile, with the envoys and the soldiers’ tribunes called together, he showed and advised ‘them’ both ‘what’ he’d learnt from Volusenus and ‘what’ he wished to happen, as the way of military matters and especially maritime matters demanded that, when they had a swift and unsteady movement, all things ‘should’ be managed by them at a nod and at the time.",
-      "With these ‘men’ dismissed, having come upon both favourable wind and tide at the one time, with the signal given, and with the anchors raised, having advanced about 7 miles from that place, he stationed ‘his’ ships ‘on’ an open and clear shore."
+      "With these ‘men’ dismissed, having come upon both favourable wind and tide at the one time, with the signal given, and with the anchors raised, having advanced about seven miles from that place, he stationed ‘his’ ships ‘on’ an open and clear shore."
     ],
   },
   "Cae4.24": {
@@ -2114,9 +2114,9 @@ var poems = {
     ],
     "translations":[
       "But the barbarians, with the Romans’ plan identified, ‘and’ with cavalry and chariot fighters sent in advance, with a class (of fighter) with which they generally were accustomed to use in battles, ‘and’, having followed closely with the remaining forces, they hindered our ‘men from disembarking’ from ‘their’ ships.",
-      "There was, for these reasons, the greatest difficulty, because ‘our’ ships, because of ‘their’ size, couldn’t be stationed if not in deep ‘water’, but, with the place unknown to ‘our’ soldiers, ‘and their’ hands entangled, ‘and’ overwhelmed by ‘their’ large & heavy burden of armour, 'they had to’ both jump down from ‘their’ ships and, at the same time, stand in the waves and fight with the enemy,",
+      "There was, for these reasons, the greatest difficulty, because ‘our’ ships, because of ‘their’ size, couldn’t be stationed if not in deep ‘water’, but, with the place unknown to ‘our’ soldiers, ‘and their’ hands entangled, ‘and’ overwhelmed by ‘their’ large and heavy burden of armour, 'they had to’ both jump down from ‘their’ ships and, at the same time, stand in the waves and fight with the enemy,",
 
-      "whereas they (the Britons), having advanced either from dry ‘land’ or a little into the water, with all ‘their’ limbs freed, ‘in’ the most ‘important’ places / with the places very ‘well’ known ‘to them’, boldly hurled ‘their’ javelins & urged on ‘their’ horses, accustomed ‘to this situation’.",
+      "whereas they (the Britons), having advanced either from dry ‘land’ or a little into the water, with all ‘their’ limbs freed, ‘in’ the most ‘important’ places / with the places very ‘well’ known ‘to them’, boldly hurled ‘their’ javelins and urged on ‘their’ horses, accustomed ‘to this situation’.",
       "Our ‘men’, thoroughly terrified by ‘these’ circumstances and completely unskilled ‘in’ this kind of battle, didn’t use the same liveliness and application which they’d ‘been accustomed’ to use in battles on land."
     ],
   },
@@ -2155,7 +2155,7 @@ var poems = {
       "Nostri, simul in arido constiterunt, suis omnibus consecutis, in hostes impetum fecerunt atque eos in fugam dederunt; neque longius prosequi potuerunt, quod equites cursum tenere atque insulam capere non potuerant. Hoc unum ad pristinam fortunam Caesari defuit."
     ],
     "translations":[
-      "‘The battle’ was fiercely fought by each ‘sides’. However, our ‘men’, because they could neither protect ‘their’ ranks nor press on steadily nor follow ‘their’ standards and one ‘man’ from one ship attached himself to whatever standards he’d ‘encounter’, were ‘all’ thrown greatly into disorder;",
+      "‘The battle’ was fiercely fought by each ‘side’. However, our ‘men’, because they could neither protect ‘their’ ranks nor press on steadily nor follow ‘their’ standards and one ‘man’ from one ship attached himself to whatever standards he’d ‘encounter’, were ‘all’ thrown greatly into disorder;",
       "indeed the enemy, with all 'people in’ the shallow water known, when, from the shore, they’d seen some ‘soldiers’ disembarking from a ship one at a time, with ‘their’ horses urged on, attacked ‘those’ hindered,",
       "rather many surrounded a few, ‘and’ others hurled missiles upon all ‘our men’ from ‘our’ open flank.",
       "When Caesar had noticed ‘this’, he ordered the warships’ boats, ‘and’ also the scouting vessels to be filled with soldiers, and he sent assistance for these ‘men’ whom he’d seen in distress.",
@@ -2192,7 +2192,7 @@ var poems = {
       "Quae cum adpropinquarent Britanniae et ex castris viderentur, tanta tempestas subito coorta est ut nulla earum cursum tenere posset, sed aliae eodem unde erant profectae referrentur, aliae ad inferiorem partem insulae, quae est propius solis occasum, magno suo cum periculo deicerentur; (...)",
     ],
     "translations":[
-      "With peace strengthened from these affairs, after the 4th day which ‘we came’ into Britain, the 18 ships, (...) which had taken the cavalry on board, cast off from the (...) harbour with a gentle wind.",
+      "With peace strengthened from these affairs, after the fourth day which ‘we came’ into Britain, the 18 ships, (...) which had taken the cavalry on board, cast off from the (...) harbour with a gentle wind.",
       "When ‘these ships’ approached Britain and were seen from the camp, such a great storm suddenly rose that ‘none’ of them could hold their course, but some were brought back ‘into’ the same ‘harbour’ from which they’d set out, ‘whereas’ others, ‘to’ their own great danger, were driven off course towards the lower part of the island, which is nearer ‘towards’ the west; (...)",
     ],
   },
@@ -2210,7 +2210,7 @@ var poems = {
     "translations":[
       "On the same night it happened that there was a full moon, a time which was accustomed to bring about very big coastal tides from the Ocean, and it was unknown to our ‘men’.",
       "So, at the one time, both the tide filled the warships, (...) which Caesar had beached on dry ‘land’, and the storm was distressing the transport ‘ships’, which were tied to ‘their’ anchors, and ‘no’ opportunity ‘for supporting’ our men was given.",
-      "With several ships rekt, while ‘those’ remaining were, with ‘their’ ropes, anchors and ‘their’ remaining gear lost, useless for sailing, a great confusion happened ‘within’ the whole army, (...)",
+      "With several ships wrecked, while ‘those’ remaining were, with ‘their’ ropes, anchors and ‘their’ remaining gear lost, useless for sailing, a great confusion happened ‘within’ the whole army, (...)",
       "For there weren’t other ships ‘in’ which they could be carried back, and everything which was ‘of’ use ‘to repair’ ships was missing, and (...) corn ‘for’ the winter hadn’t been provided in these places.",
     ],
   },
@@ -2260,7 +2260,7 @@ var poems = {
     ],
     "translations":[
       "While those things are being managed, with one legion (...) sent ‘to’ go foraging as usual and ‘no’ suspicion of war admitted at that time, while part of ‘his’ people remained in ‘their’ fields, ‘and another’ part even kept coming into the camp, ‘those’ who were in the sentry post in front of the camp’s gates reported to Caesar that a greater dust than custom would ‘usually’ bear in that direction was seen, into which direction the legion had marched.",
-      "Caesar, having suspected that which was ‘really the case, some’ new plan begun by the barbarians, ordered the cohorts which were in the sentry post to set out with him in that direction, (...) ‘and’ the remaining ‘cohorts’ to be armed and follow closely / support him immediately.",
+      "Caesar, having suspected that which was ‘really the case, some’ new plan begun by the barbarians, ordered the cohorts which were in the sentry post to set out with him in that direction, (...) ‘and’ the remaining ‘cohorts’ to be armed and support him / follow closely immediately.",
       "When he’d advanced a little further from the camp, he noticed that his ‘men’ were being pressed back by the enemy and were withstanding with difficulty and (...) missiles were being hurled from all directions.",
       "For, because there was ‘only’ one remaining part out of the remaining parts, with all the corn reaped, having suspected that our ‘men’ would come  here, the enemy had lurked in the woods at night;",
       "then, having suddenly attacked ‘them as they’ dispersed, with ‘their’ arms put down ‘and’ occupied ‘with’ reaping, with a few killed, they’d thrown the remaining ‘soldiers’ into disorder with uncertain lines, as soon as they’d surrounded ‘them’ with cavalry and war chariots."
@@ -2288,7 +2288,7 @@ var poems = {
   },
   "Cae4.35": {
     "name":"Caesar IV.XXXV (4.35)",
-    "englishName":"Caesar 4.35. Caesar beats off an attack on his camp and returns to France",
+    "englishName":"Caesar 4.35. Caesar Beats off an Attack on his Camp and Returns to France",
     "wordCount":75,
     "half":3,
     "latin":[
