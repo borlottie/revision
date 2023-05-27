@@ -3169,7 +3169,7 @@ var scansionBooks = {
     {"scansion":["S","D","D","D","D","T"],"caesura":3,"notes":[]},
     {"scansion":["D","S","S","S","(D)","T"],"caesura":3,"notes":[]},
     {"scansion":["D","S","D","D","D","S"],"caesura":3,"notes":[]},
-    {"scansion":["D","S","S","D","S","S"],"caesura":3,"notes":[]},
+    {"scansion":["D","S","S","D","D","S"],"caesura":3,"notes":[]},
     {"scansion":["S","(S)","S","S","D","S"],"caesura":3,"notes":["highly spondaic",]},
     {"scansion":["D","S","(S)","S","D","T"],"caesura":4,"notes":["y = vwl -- Sybillam",]},
     {"scansion":["D","S","S","(S)","D","S"],"caesura":3,"notes":["qu- + vwl non-diphthong -- prosequitur",]},
