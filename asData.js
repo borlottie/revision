@@ -1,6 +1,7 @@
 var halves = 4
 
 var poems = {
+  // first half catullus/horace
   "Cat5": {
     "name":"Catullus V. ad Lesbiam",
     "englishName":"Catullus 5. To Lesbia",
@@ -991,6 +992,8 @@ var poems = {
       {"word":"dixerat","index":0,"solution":"verb 3S plup act indic"},
     ],
   },
+
+  // second half catullus/horace
   "Cat84b": {
     "name":"Catullus LXXXIV. ad Arrium (2nd half)",
     "englishName":"Catullus 84. To Arrius (2nd half)",
@@ -2021,6 +2024,7 @@ var poems = {
     ],
   },
 
+  // first half caesar (no a&s)
   "Cae4.20": {
     "name":"Caesar IV.XX (4.20)",
     "englishName":"Caesar 4.20. Caesar Prepares to Invade Britain",
@@ -2303,8 +2307,9 @@ var poems = {
     ],
   },
 
+  // caesar 2nd half
   "Cae5.38": {
-    "name":"Caesar V.XXXVIII",
+    "name":"Caesar V.XXXVIII (5.38)",
     "englishName":"Caesar 5.38",
     "wordCount":78,
     "half":4,
@@ -2385,7 +2390,7 @@ var poems = {
     ],
   },
   "Cae5.39": {
-    "name":"Caesar V.XXXIX",
+    "name":"Caesar V.XXXIX (5.39)",
     "englishName":"Caesar 5.39",
     "wordCount":99,
     "half":4,
@@ -2486,7 +2491,7 @@ var poems = {
     ],
   },
   "Cae5.40": {
-    "name":"Caesar V.XL",
+    "name":"Caesar V.XL (5.40)",
     "englishName":"Caesar 5.40",
     "wordCount":119,
     "half":4,
@@ -2606,7 +2611,7 @@ var poems = {
     ],
   },
   "Cae5.41": {
-    "name":"Caesar V.XLI",
+    "name":"Caesar V.XLI (5.41)",
     "englishName":"Caesar 5.41",
     "wordCount":131,
     "half":4,
@@ -2730,7 +2735,7 @@ var poems = {
     ],
   },
   "Cae5.42": {
-    "name":"Caesar V.XLII",
+    "name":"Caesar V.XLII (5.42)",
     "englishName":"Caesar 5.42",
     "wordCount":85,
     "half":4,
@@ -2813,7 +2818,7 @@ var poems = {
     ],
   },
   "Cae5.43": {
-    "name":"Caesar V.XLIII",
+    "name":"Caesar V.XLIII (5.43)",
     "englishName":"Caesar 5.43",
     "wordCount":175,
     "half":4,
@@ -2999,7 +3004,7 @@ var poems = {
     ],
   },
   "Cae5.44": {
-    "name":"Caesar V.XLIV",
+    "name":"Caesar V.XLIV (5.44)",
     "englishName":"Caesar 5.44",
     "wordCount":209,
     "half":4,
@@ -3208,7 +3213,7 @@ var poems = {
     ],
   },
   "Cae5.45": {
-    "name":"Caesar V.XLV",
+    "name":"Caesar V.XLV (5.45)",
     "englishName":"Caesar 5.45",
     "wordCount":94,
     "half":4,
@@ -3297,7 +3302,7 @@ var poems = {
     ],
   },
   "Cae5.46": {
-    "name":"Caesar V.XLVI",
+    "name":"Caesar V.XLVI (5.46)",
     "englishName":"Caesar 5.46",
     "wordCount":85,
     "half":4,
@@ -3380,7 +3385,7 @@ var poems = {
     ],
   },
   "Cae5.47": {
-    "name":"Caesar V.XLVII",
+    "name":"Caesar V.XLVII (5.47)",
     "englishName":"Caesar 5.47",
     "wordCount":113,
     "half":4,
@@ -3486,7 +3491,7 @@ var poems = {
     ],
   },
   "Cae5.48": {
-    "name":"Caesar V.XLVIII",
+    "name":"Caesar V.XLVIII (5.48)",
     "englishName":"Caesar 5.48",
     "wordCount":145,
     "half":4,
@@ -3622,7 +3627,7 @@ var poems = {
     ],
   },
   "Cae5.49": {
-    "name":"Caesar V.XLIX",
+    "name":"Caesar V.XLIX (5.49)",
     "englishName":"Caesar 5.49",
     "wordCount":158,
     "half":4,
@@ -3761,7 +3766,7 @@ var poems = {
     ],
   },
   "Cae5.50": {
-    "name":"Caesar V.L",
+    "name":"Caesar V.L (5.50)",
     "englishName":"Caesar 5.50",
     "wordCount":97,
     "half":4,
@@ -3858,7 +3863,7 @@ var poems = {
     ],
   },
   "Cae5.51": {
-    "name":"Caesar V.LI",
+    "name":"Caesar V.LI (5.51)",
     "englishName":"Caesar 5.51",
     "wordCount":106,
     "half":4,
