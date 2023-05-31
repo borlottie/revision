@@ -3321,11 +3321,22 @@ var poems = {
   },
   "Cae5.45": {
     "name":"Caesar V.XLV (5.45)",
-    "englishName":"Caesar 5.45",
+    "englishName":"Caesar 5.45. Cicero gets a message thru to Caesar, who marches to relieve him",
     "wordCount":94,
     "half":4,
     "latin":[
-      "Quanto erat in dies gravior atque asperior oppugnatio, et maxime quod magna parte militum confecta vulneribus res ad paucitatem defensorum pervenerat, tanto crebriores litterae nuntiique ad Caesarem mittebantur; quorum pars deprehensa in conspectu nostrorum militum cum cruciatu necabatur. Erat unus intus Nervius nomine Vertico, loco natus honesto, qui a prima obsidione ad Ciceronem perfugerat suamque ei fidem praestiterat. Hic servo spe libertatis magnisque persuadet praemiis, ut litteras ad Caesarem deferat. Has ille in iaculo illigatas effert et Gallus inter Gallos sine ulla suspicione versatus ad Caesarem pervenit. Ab eo de periculis Ciceronis legionisque cognoscitur."
+      "Quanto erat in dies gravior atque asperior oppugnatio, et maxime quod magna parte militum confecta vulneribus res ad paucitatem defensorum pervenerat, tanto crebriores litterae nuntiique ad Caesarem mittebantur; quorum pars deprehensa in conspectu nostrorum militum cum cruciatu necabatur.",
+      "Erat unus intus Nervius nomine Vertico, loco natus honesto, qui a prima obsidione ad Ciceronem perfugerat suamque ei fidem praestiterat.",
+      "Hic servo spe libertatis magnisque persuadet praemiis, ut litteras ad Caesarem deferat.",
+      "Has ille in iaculo illigatas effert et Gallus inter Gallos sine ulla suspicione versatus ad Caesarem pervenit.",
+      "Ab eo de periculis Ciceronis legionisque cognoscitur."
+    ],
+    "translations":[
+      "‘As’ much ‘as’ the attack was heavier and more violent day by day, and especially because, with a large part of the soldiers exhausted by ‘their’ wounds, the matter had come ‘down’ to a small number of defenders, more frequent letters and messages were sent towards Caesar so far; a part of whom, caught, was killed ‘by’ torture in view of our soldiers.",
+      "Inside ‘our camp’ was one Nervian ‘called’ Vertico, born from a respectable rank, who’d deserted to Cicero from the earliest siege and had proven his own loyalty to him.",
+      "This ‘man’ persuades ‘his’ slave with the hope of freedom and with great rewards, to bring a letter to Caesar.",
+      "He [The slave] carries this out, fastened on ‘his’ javelin, and, having been a Gaul among the Gauls without any suspicion, he reaches Caesar.",
+      "From him, it’s known about the dangers of Cicero and the legion."
     ],
     "aAndS":[
       {"word":"erat","index":0,"solution":"verb 3s imperf act indic"},
