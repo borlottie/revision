@@ -1,7 +1,7 @@
 var halves = 4
 
 var poems = {
-  // first half catullus/horace
+  //#region first half catullus/horace
   "Cat5": {
     "name":"Catullus V. ad Lesbiam",
     "englishName":"Catullus 5. To Lesbia",
@@ -992,8 +992,9 @@ var poems = {
       {"word":"dixerat","index":0,"solution":"verb 3S plup act indic"},
     ],
   },
+  // #endregion
 
-  // second half catullus/horace
+  //#region second half catullus/horace
   "Cat84b": {
     "name":"Catullus LXXXIV. ad Arrium (2nd half)",
     "englishName":"Catullus 84. To Arrius (2nd half)",
@@ -2023,8 +2024,9 @@ var poems = {
       {"word":"comam","index":0,"solution":"noun acc obj of verb cinge"},
     ],
   },
+  // #endregion
 
-  // first half caesar (no a&s)
+  //#region  first half caesar (no a&s)
   "Cae4.20": {
     "name":"Caesar IV.XX (4.20)",
     "englishName":"Caesar 4.20. Caesar Prepares to Invade Britain",
@@ -2306,15 +2308,25 @@ var poems = {
       "Having followed ‘them’ for such a great distance as much as they could with ‘their’ speed and strength, they killed very many of them, then, with all ‘their’ buildings far and wide set on fire, they retreated into ‘their’ camp."
     ],
   },
+  // #endregion
 
   // caesar 2nd half
   "Cae5.38": {
     "name":"Caesar V.XXXVIII (5.38)",
-    "englishName":"Caesar 5.38",
+    "englishName":"Caesar 5.38. Ambiorix rouses the Aduatuci and the Nervii and falls on Cicero’s camp with huge forces.",
     "wordCount":78,
     "half":4,
     "latin": [
-      "Hac victoria sublatus Ambiorix statim cum equitatu in Aduatucos, qui erant eius regno finitimi, proficiscitur; neque noctem neque diem intermittit peditatumque subsequi iubet. Re demonstrata Aduatucisque concitatis postero die in Nervios pervenit hortaturque, ne sui in perpetuum liberandi atque ulciscendi Romanos pro eis quas acceperint iniuriis occasionem dimittant: interfectos esse legatos duos magnamque partem exercitus interisse demonstrat; nihil esse negoti subito oppressam legionem quae cum Cicerone hiemet interfici; se ad eam rem profitetur adiutorem. Facile hac oratione Nerviis persuadet."
+      "Hac victoria sublatus Ambiorix statim cum equitatu in Aduatucos, qui erant eius regno finitimi, proficiscitur; neque noctem neque diem intermittit peditatumque subsequi iubet.",
+      "Re demonstrata Aduatucisque concitatis postero die in Nervios pervenit hortaturque, ne sui in perpetuum liberandi atque ulciscendi Romanos pro eis quas acceperint iniuriis occasionem dimittant:",
+      "interfectos esse legatos duos magnamque partem exercitus interisse demonstrat;",
+      "nihil esse negoti subito oppressam legionem quae cum Cicerone hiemet interfici; se ad eam rem profitetur adiutorem. Facile hac oratione Nerviis persuadet."
+    ],
+    "translations":[
+      "Lifted by this victory, Ambiorix (leader of Eburones) set out with 'his' cavalry at once into the Aduatuci, who were neighbours with his kingdom; he ceases neither for the night nor day and he orders ‘his’ infantry to follow ‘him’ closely.",
+      "With the matter explained and the Aduatuci roused, the next day, he arrived among the Nervii and urges that they not forsake the opportunity of ‘freeing’ their own ‘people’ forever and avenging the Romans for those injustices which they’ve received ‘from them’:",
+      "he explains that two lieutenants have been killed and that a large part of the army has died;",
+      "'and' that it was no trouble that the legion, which may pass the winter with Cicero, surprised suddenly, be killed; he declares himself a helper for that circumstance. He easily persuades the Nervii with this speech."
     ],
     "aAndS":[
       {"word":"hac","index":0,"solution":"dem adj descs & pts out noun victoria"},
@@ -2391,11 +2403,20 @@ var poems = {
   },
   "Cae5.39": {
     "name":"Caesar V.XXXIX (5.39)",
-    "englishName":"Caesar 5.39",
+    "englishName":"Caesar 5.39. Ambiorix rouses the Aduatuci and the Nervii and falls on Cicero’s camp with huge forces.",
     "wordCount":99,
     "half":4,
     "latin":[
-      "Itaque confestim dimissis nuntiis ad Ceutrones, Grudios, Levacos, Pleumoxios, Geidumnos, qui omnes sub eorum imperio sunt, quam maximas manus possunt cogunt et de improviso ad Ciceronis hiberna advolant nondum ad eum fama de Tituri morte perlata. Huic quoque accidit, quod fuit necesse, ut nonnulli milites, qui lignationis munitionisque causa in silvas discessissent, repentino equitum adventu interciperentur. His circumventis magna manu Eburones, Nervii, Aduatuci atque horum omnium socii et clientes legionem oppugnare incipiunt. Nostri celeriter ad arma concurrunt, vallum conscendunt. Aegre is dies sustentatur, quod omnem spem hostes in celeritate ponebant atque hanc adepti victoriam in perpetuum se fore victores confidebant."
+      "Itaque confestim dimissis nuntiis ad Ceutrones, Grudios, Levacos, Pleumoxios, Geidumnos, qui omnes sub eorum imperio sunt, quam maximas manus possunt cogunt et de improviso ad Ciceronis hiberna advolant nondum ad eum fama de Tituri morte perlata.",
+      "Huic quoque accidit, quod fuit necesse, ut nonnulli milites, qui lignationis munitionisque causa in silvas discessissent, repentino equitum adventu interciperentur.",
+      "His circumventis magna manu Eburones, Nervii, Aduatuci atque horum omnium socii et clientes legionem oppugnare incipiunt. Nostri celeriter ad arma concurrunt, vallum conscendunt.",
+      "Aegre is dies sustentatur, quod omnem spem hostes in celeritate ponebant atque hanc adepti victoriam in perpetuum se fore victores confidebant."
+    ],
+    "translations":[
+      "Therefore, with messengers sent away immediately towards the Ceutrones, the Grudii, the Levaci, the Pleumoxii, and the Geidumni, who are all under their [i.e. the Nervii’s] command, they gather together as large bands ‘of men’ as they can and ‘rush’ unexpectedly towards Cicero’s winter quarters, with the report about Titurius’ death not yet brought to him.",
+      "It also happened to this ‘man’, which was necessary, that some soldiers, who’d left into the woods ‘to’ fetch wood and build [fortifications], were intercepted by the [enemy] horsemen’s sudden arrival.",
+      "With these ‘men’ surrounded by a large band ‘of men’, the Eburones, Nervii, Aduatuci and all these peoples’ allies and followers begin to attack the legion. Our ‘men’ quickly run towards 'their' arms together, and climb the rampart.",
+      "That day is ‘endured’ with difficulty, because the enemy put all ‘their’ hope in ‘their’ speed and, having attained this victory, they were sure that they would be victorious forever."
     ],
     "aAndS": [
       {"word":"itaque","index":0,"solution":"adv descs verb (PPP) dimissis / verb cogunt"},
@@ -2492,11 +2513,26 @@ var poems = {
   },
   "Cae5.40": {
     "name":"Caesar V.XL (5.40)",
-    "englishName":"Caesar 5.40",
+    "englishName":"Caesar 5.40. Cicero fails to get messages to Caesar but gallantly holds out against the Gauls’ attacks.",
     "wordCount":119,
     "half":4,
     "latin":[
-      "Mittuntur ad Caesarem confestim ab Cicerone litterae magnis propositis praemiis, si pertulissent: obsessis omnibus viis missi intercipiuntur. Noctu ex materia, quam munitionis causa comportaverant, turres admodum CXX excitantur incredibili celeritate; quae deesse operi videbantur, perficiuntur. Hostes postero die multo maioribus coactis copiis castra oppugnant, fossam complent. Eadem ratione, qua pridie, ab nostris resistitur. Hoc idem reliquis deinceps fit diebus. Nulla pars nocturni temporis ad laborem intermittitur; non aegris, non vulneratis facultas quietis datur. Quaecumque ad proximi diei oppugnationem opus sunt noctu comparantur; multae praeustae sudes, magnus muralium pilorum numerus instituitur; turres contabulantur, pinnae loricaeque ex cratibus attexuntur. Ipse Cicero, cum tenuissima valetudine esset, ne nocturnum quidem sibi tempus ad quietem relinquebat, ut ultro militum concursu ac vocibus sibi parcere cogeretur."
+      "Mittuntur ad Caesarem confestim ab Cicerone litterae magnis propositis praemiis, si pertulissent: obsessis omnibus viis missi intercipiuntur.",
+      "Noctu ex materia, quam munitionis causa comportaverant, turres admodum CXX excitantur incredibili celeritate; quae deesse operi videbantur, perficiuntur.",
+      "Hostes postero die multo maioribus coactis copiis castra oppugnant, fossam complent. Eadem ratione, qua pridie, ab nostris resistitur.",
+      "Hoc idem reliquis deinceps fit diebus.",
+      "Nulla pars nocturni temporis ad laborem intermittitur; non aegris, non vulneratis facultas quietis datur.",
+      "Quaecumque ad proximi diei oppugnationem opus sunt noctu comparantur; multae praeustae sudes, magnus muralium pilorum numerus instituitur; turres contabulantur, pinnae loricaeque ex cratibus attexuntur.",
+      "Ipse Cicero, cum tenuissima valetudine esset, ne nocturnum quidem sibi tempus ad quietem relinquebat, ut ultro militum concursu ac vocibus sibi parcere cogeretur."
+    ],
+    "translations":[
+      "Letters are sent immediately to Caesar by Cicero, with great rewards proposed [for the messengers], if they brought ‘them to him’: with all the roads blockaded, ‘the people’ sent are intercepted.",
+      "At night, from the timber which they’d collected with the purpose of fortification, 120 towers are raised with quite incredible speed; ‘things’, which were seen to be missing ‘from’ the work, are completed.",
+      "The next day, the enemy, with far larger forces gathered together, attack the camp 'and' fill the ditch. It is resisted by our ‘men’ the same way, in which ‘they did so’ the day before.",
+      "This same thing happens successively on the remaining days.",
+      "No part of the night time is allowed to elapse with regards to ‘their’ work; an opportunity ‘for’ rest is given to neither   the sick, nor the wounded.",
+      "Whatever things ‘they’ need for the next day’s attack are procured at night; many stakes hardened at the point, ‘and’ a large number of mural javelins are set up; towers are built, ‘and’ battlements and parapets are added on ‘with’ faggots.",
+      "Cicero himself, when he was ‘in’ very poor health, didn’t even leave himself the night time for rest, so that he might be compelled to spare himself from the soldiers’ spontaneous assault and voices."
     ],
     "aAndS":[
       {"word":"mittuntur","index":0,"solution":"verb 3p pres pass indic"},
@@ -2612,11 +2648,28 @@ var poems = {
   },
   "Cae5.41": {
     "name":"Caesar V.XLI (5.41)",
-    "englishName":"Caesar 5.41",
+    "englishName":"Caesar 5.41. Cicero fails to get messages to Caesar but gallantly holds out against the Gauls’ attacks.",
     "wordCount":131,
     "half":4,
     "latin":[
-      "Tunc duces principesque Nerviorum qui aliquem sermonis aditum causamque amicitiae cum Cicerone habebant colloqui sese velle dicunt. Facta potestate eadem quae Ambiorix cum Titurio egerat commemorant: omnem esse in armis Galliam; Germanos Rhenum transisse; Caesaris reliquorumque hiberna oppugnari. Addunt etiam de Sabini morte: Ambiorigem ostentant fidei faciendae causa. Errare eos dicunt, si quidquam ab his praesidi(i) sperent, qui suis rebus diffidant; sese tamen hoc esse in Ciceronem populumque Romanum animo, ut nihil nisi hiberna recusent atque hanc inveterascere consuetudinem nolint: licere illis incolumibus per se ex hibernis discedere et quascumque in partes velint sine metu proficisci. Cicero ad haec unum modo respondit: non esse consuetudinem populi Romani accipere ab hoste armato condicionem: si ab armis discedere velint, se adiutore utantur legatosque ad Caesarem mittant; sperare pro eius iustitia, quae petierint, impetraturos."
+      "Tunc duces principesque Nerviorum qui aliquem sermonis aditum causamque amicitiae cum Cicerone habebant colloqui sese velle dicunt.",
+      "Facta potestate eadem quae Ambiorix cum Titurio egerat commemorant: omnem esse in armis Galliam;",
+      "Germanos Rhenum transisse; Caesaris reliquorumque hiberna oppugnari.",
+      "Addunt etiam de Sabini morte: Ambiorigem ostentant fidei faciendae causa.",
+      "Errare eos dicunt, si quidquam ab his praesidi sperent, qui suis rebus diffidant; sese tamen hoc esse in Ciceronem populumque Romanum animo, ut nihil nisi hiberna recusent atque hanc inveterascere consuetudinem nolint:",
+      "licere illis incolumibus per se ex hibernis discedere et quascumque in partes velint sine metu proficisci.",
+      "Cicero ad haec unum modo respondit: non esse consuetudinem populi Romani accipere ab hoste armato condicionem:",
+      "si ab armis discedere velint, se adiutore utantur legatosque ad Caesarem mittant; sperare pro eius iustitia, quae petierint, impetraturos."
+    ],
+    "translations":[
+      "Then the Nervii’s leaders and chiefs, who had some avenue of discourse and pretext of friendship with Cicero, say that they wish to talk to ‘him’.",
+      "With permission ‘given’, they recall the same things which Ambiorix had discussed with Titurius: that all Gaul was in arms;",
+      "that the Germans have crossed Rhine; ‘and’ that Caesar’s and the remaining ‘soldiers'’ winter quarters were being attacked.",
+      "They also add about Sabinus’ death: they make Ambiorix known with the purpose of ‘convincing him’.",
+      "They (i.e. the Nervii) say that they (i.e. the Romans) are wrong, if they may hope for any protection by these ‘people’, who distrust their affairs; that they themselves, however, are ‘of’ this opinion towards Cicero and the Roman people, so that they may refuse nothing except winter quarters and they may refuse that this custom become established:",
+      "‘that’, through them [the Nervii], ‘it’ was alright for them [the Romans] to depart safely from ‘their’ winter quarters and set out without fear into whatever parts they may wish.",
+      "Cicero ‘said’ only one ‘thing in reply’ to these things: that the Roman people’s custom wasn’t to accept terms from an armed enemy:",
+      "if they ‘are’ willing to part ‘with their’ arms, they may use him [i.e. Cicero] ‘as their advocate’ and send envoys to Caesar; ‘and that he’ hoped, by virtue of his [Caesar’s] justice, ‘that they’ would obtain ‘the things’ which they’ve sought."
     ],
     "aAndS":[
       {"word":"tunc","index":0,"solution":"adv descs verb dicunt"},
@@ -2736,11 +2789,21 @@ var poems = {
   },
   "Cae5.42": {
     "name":"Caesar V.XLII (5.42)",
-    "englishName":"Caesar 5.42",
+    "englishName":"Caesar 5.42. Cicero fails to get messages to Caesar but gallantly holds out against the Gauls’ attacks.",
     "wordCount":85,
     "half":4,
     "latin":[
-      "Ab hac spe repulsi Nervii vallo pedum IX et fossa pedum XV hiberna cingunt. Haec et superiorum annorum consuetudine ab nobis cognoverant et, quos clam de exercitu habebant captivos, ab eis docebantur; sed nulla ferramentorum copia quae esset ad hunc usum idonea, gladiis caespites circumcidere, manibus sagulisque terram exhaurire nitebantur. Qua quidem ex re hominum multitudo cognosci potuit: nam minus horis tribus milium pedum XV in circuitu munitionem perfecerunt reliquisque diebus turres ad altitudinem valli, falces testudinesque, quas idem captivi docuerant, parare ac facere coeperunt."
+      "Ab hac spe repulsi Nervii vallo pedum IX et fossa pedum XV hiberna cingunt.",
+      "Haec et superiorum annorum consuetudine ab nobis cognoverant et, quos clam de exercitu habebant captivos, ab eis docebantur;",
+      "sed nulla ferramentorum copia quae esset ad hunc usum idonea, gladiis caespites circumcidere, manibus sagulisque terram exhaurire nitebantur.",
+      "Qua quidem ex re hominum multitudo cognosci potuit: nam minus horis tribus milium pedum XV in circuitu munitionem perfecerunt",
+      "reliquisque diebus turres ad altitudinem valli, falces testudinesque, quas idem captivi docuerant, parare ac facere coeperunt."
+    ],
+    "translations":[
+      "‘Disappointed’ from this hope, the Nervii surrounded the winter quarters with a rampart of nine feet and a ditch of fifteen feet.",
+      "They’d both got to know these things from us from the previous years’ social intercourse and they were taught by those whom they secretly had ‘as’ prisoners from ‘our’ army;",
+      "but with no ‘supply’ of tools which 'were' suitable for this use, they struggled to cut around the turf with ‘their’ swords, ‘and’ to remove the earth with ‘their’ hands and ‘their’ cloaks.",
+      "In fact, from ‘this’ circumstance, a great number of the men could be identified: for, in less than three hours, they finished a fortification of 15,000 feet in ‘circumference’ and, in the remaining days, they ‘began’ to prepare and make towers towards the rampart’s height, siege hooks and shelters (for besiegers), which the same prisoners had taught ‘them’."
     ],
     "aAndS":[ 
       {"word":"hac","index":0,"solution":"dem adj descs & pts out noun spe"},
@@ -2819,11 +2882,26 @@ var poems = {
   },
   "Cae5.43": {
     "name":"Caesar V.XLIII (5.43)",
-    "englishName":"Caesar 5.43",
+    "englishName":"Caesar 5.43. Cicero fails to get messages to Caesar but gallantly holds out against the Gauls’ attacks.",
     "wordCount":175,
     "half":4,
     "latin":[
-      "Septimo oppugnationis die maximo coorto vento ferventes fusili ex argilla glandes fundis et fervefacta iacula in casas, quae more Gallico stramentis erant tectae, iacere coeperunt. Hae celeriter ignem comprehenderunt et venti magnitudine in omnem locum castrorum distulerunt. Hostes maximo clamore sicuti parta iam atque explorata victoria turres testudinesque agere et scalis vallum ascendere coeperunt. At tanta militum virtus atque ea praesentia animi fuit, ut, cum undique flamma torrerentur maximaque telorum multitudine premerentur suaque omnia impedimenta atque omnes fortunas conflagrare intellegerent, non modo demigrandi causa de vallo decederet nemo, sed paene ne respiceret quidem quisquam, ac tum omnes acerrime fortissimeque pugnarent. Hic dies nostris longe gravissimus fuit; sed tamen hunc habuit eventum, ut eo die maximus numerus hostium vulneraretur atque interficeretur, ut se sub ipso vallo constipaverant recessumque primis ultimi non dabant. Paulum quidem intermissa flamma et quodam loco turri adacta et conti(n)gente vallum tertiae cohortis centuriones ex eo, quo stabant, loco recesserunt suosque omnes removerunt, nutu vocibusque hostes, si introire vellent, vocare coeperunt; quorum progredi ausus est nemo. Tum ex omni parte lapidibus coniectis deturbati, turrisque succensa est."
+      "Septimo oppugnationis die maximo coorto vento ferventes fusili ex argilla glandes fundis et fervefacta iacula in casas, quae more Gallico stramentis erant tectae, iacere coeperunt.",
+      "Hae celeriter ignem comprehenderunt et venti magnitudine in omnem locum castrorum distulerunt.",
+      "Hostes maximo clamore sicuti parta iam atque explorata victoria turres testudinesque agere et scalis vallum ascendere coeperunt.",
+      "At tanta militum virtus atque ea praesentia animi fuit, ut, cum undique flamma torrerentur maximaque telorum multitudine premerentur suaque omnia impedimenta atque omnes fortunas conflagrare intellegerent, non modo demigrandi causa de vallo decederet nemo, sed paene ne respiceret quidem quisquam, ac tum omnes acerrime fortissimeque pugnarent.",
+      "Hic dies nostris longe gravissimus fuit; sed tamen hunc habuit eventum, ut eo die maximus numerus hostium vulneraretur atque interficeretur, ut se sub ipso vallo constipaverant recessumque primis ultimi non dabant.",
+      "Paulum quidem intermissa flamma et quodam loco turri adacta et contingente vallum tertiae cohortis centuriones ex eo, quo stabant, loco recesserunt suosque omnes removerunt, nutu vocibusque hostes, si introire vellent, vocare coeperunt; quorum progredi ausus est nemo.",
+      "Tum ex omni parte lapidibus coniectis deturbati, turrisque succensa est."
+    ],
+    "translations":[
+      "On the attack’s seventh day, with a very great wind having risen, they ‘began’ to throw, from slings, hot bullets ‘made’ from ‘hardened’ clay and ‘heated’ javelins onto the houses, which, by Gallic custom, were dwellings ‘of’ straw.",
+      "These (i.e. houses) quickly caught fire and, by the wind’s ‘strength’, dispersed into every place ‘in’ the camp.",
+      "With a very ‘loud’ shout, as if victory ‘were’ already procured and ascertained, the enemy ‘began’ to drive ‘their’ towers and shelters forward and to climb the rampart with ‘ladders’.",
+      "But so great was ‘our’ soldiers’ courage and that presence of mind, that, when they were scorched by flame from all sides and pressed upon by a very great number of missiles and they realised that all their own baggage and possessions were burning, not only did no one withdraw from the rampart with the purpose of ‘retreating’, but not nearly even anyone looked back, and then 'they' all fought very fiercely and bravely.",
+      "This day was by far the most painful for our ‘men’; but still it had this result, that, on that day, the largest number of the enemy was wounded and killed, as they’d crowded themselves together under the rampart itself and the farthest didn’t give a retreat to the foremost.",
+      "In fact, with the flame having ‘abated’ a little and a tower driven from a certain place and touching the rampart, the (i.e. Roman) third cohort’s centurions withdrew from that place, ‘in’ which they were standing, and withdrew all their ‘men, and’ they ‘began’ to call the enemy with a nod and with ‘their’ voices, if they might wish to enter; ‘none’ of whom dared to advance.",
+      "Then, with stones hurled from every direction, ‘and with the men’ pulled down, and ‘their’ tower was set fire to."
     ],
     "aAndS":[
       {"word":"septimo","index":0,"solution":"adj descs noun die"},
@@ -3005,11 +3083,40 @@ var poems = {
   },
   "Cae5.44": {
     "name":"Caesar V.XLIV (5.44)",
-    "englishName":"Caesar 5.44",
+    "englishName":"Caesar 5.44. The courage of the centurions Pullo & Vorenus",
     "wordCount":209,
     "half":4,
     "latin":[
-      "Erant in ea legione fortissimi viri, centuriones, qui primis ordinibus approp(r)inquarent, Titus Pullo et Lucius Vorenus. Hi perpetuas inter se controversias habebant, quinam anteferretur, omnibusque annis de locis summis simultatibus contendebant. Ex his Pullo, cum acerrime ad munitiones pugnaretur, \"Quid dubitas,\" inquit, \" Vorene? aut quem locum tuae probandae virtutis exspectas ? hic dies de nostris controversiis iudicabit.\" Haec cum dixisset, procedit extra munitiones quaque pars hostium confertissima est visa irrumpit. Ne Vorenus quidem tum sese vallo continet, sed omnium veritus existimationem subsequitur. Mediocri spatio relicto Pullo pilum in hostes immittit atque unum ex multitudine procurrentem traicit; quo percusso et exanimato hunc scutis protegunt, in hostem tela universi coniciunt neque dant regrediendi facultatem. Transfigitur scutum Pulloni et verutum in balteo defigitur. Avertit hic casus vaginam et gladium educere conanti dextram moratur manum, impeditumque hostes circumsistunt. Succurrit inimicus illi Vorenus et laboranti subvenit. Ad hunc se confestim a Pullone omnis multitudo convertit: illum veruto arbitrantur occisum. Gladio comminus rem gerit Vorenus atque uno interfecto reliquos paulum propellit; dum cupidius instat, in locum deiectus inferiorem concidit. Huic rursus circumvento fert subsidium Pullo, atque ambo incolumes compluribus interfectis summa cum laude sese intra munitiones recipiunt. Sic fortuna in contentione et certamine utrumque versavit, ut alter alteri inimicus auxilio salutique esset, neque diiudicari posset, uter utri virtute anteferendus videretur."
+      "Erant in ea legione fortissimi viri, centuriones, qui primis ordinibus appropinquarent, Titus Pullo et Lucius Vorenus.",
+      "Hi perpetuas inter se controversias habebant, quinam anteferretur, omnibusque annis de locis summis simultatibus contendebant.",
+      "Ex his Pullo, cum acerrime ad munitiones pugnaretur, \"Quid dubitas,\" inquit, \" Vorene? aut quem locum tuae probandae virtutis exspectas?",
+      "hic dies de nostris controversiis iudicabit.\" Haec cum dixisset, procedit extra munitiones quaque pars hostium confertissima est visa irrumpit.",
+      "Ne Vorenus quidem tum sese vallo continet, sed omnium veritus existimationem subsequitur.",
+      "Mediocri spatio relicto Pullo pilum in hostes immittit atque unum ex multitudine procurrentem traicit; quo percusso et exanimato hunc scutis protegunt, in hostem tela universi coniciunt neque dant regrediendi facultatem.",
+      "Transfigitur scutum Pulloni et verutum in balteo defigitur.",
+      "Avertit hic casus vaginam et gladium educere conanti dextram moratur manum, impeditumque hostes circumsistunt.",
+      "Succurrit inimicus illi Vorenus et laboranti subvenit.",
+      "Ad hunc se confestim a Pullone omnis multitudo convertit:",
+      "illum veruto arbitrantur occisum. Gladio comminus rem gerit Vorenus atque uno interfecto reliquos paulum propellit;",
+      "dum cupidius instat, in locum deiectus inferiorem concidit. Huic rursus circumvento fert subsidium Pullo,",
+      "atque ambo incolumes compluribus interfectis summa cum laude sese intra munitiones recipiunt.",
+      "Sic fortuna in contentione et certamine utrumque versavit, ut alter alteri inimicus auxilio salutique esset, neque diiudicari posset, uter utri virtute anteferendus videretur."
+    ],
+    "translations":[
+      "Very brave men were in that legion, ‘including’ centurions Titus Pullo and Lucius Vorenus, who were approaching the first lines.",
+      "These ‘men’ used to have ‘continual’ disputes between themselves, ‘about’ which ‘should’ be preferred, and they used to compete for ‘promotions’ with the utmost ‘animosity every’ year.",
+      "When ‘battle’ was being fought very fiercely near the fortifications, ‘one’ of them, Pullo, says, ‘Why do you hesitate, Vorenus? Or which rank are you awaiting ‘to approve’ your courage?",
+      "This day will decide our disputes.’ When he’d said these things, he proceeds outside the fortifications and rushes into ‘the place’ in which part of the enemy seemed 'to be' in closest order.",
+      "Then not even Vorenus confines himself to the rampart, but, having feared everyone’s opinion, he follows closely.",
+      "With a ‘sizeable’ space left, Pullo sent ‘his’ javelin into the enemy and pierces one out of the multitude rushing forward; with ‘this man’ struck and killed, they [the enemy] cover this ‘man’ over with ‘their’ shields, all hurl ‘their’ javelins into the enemy and don’t give ‘it’ (i.e. the enemy) an opportunity ‘to’ go back.",
+      "Pullo’s shield is pierced and a javelin is fixed firmly in ‘his’ belt.",
+      "This misfortune turns ‘his’ sheath aside and retards the right hand ‘of the man’ trying to draw out ‘his’ sword, and the enemy surround the encircled ‘man’.",
+      "‘His’ (personal) enemy Vorenus helps him and comes to the assistance ‘of him whilst’ in distress.",
+      "All the crowd immediately turned from Pullo towards this ‘man’ (i.e. Vorenus):",
+      "they think that he’s been killed by the javelin. Vorenus, with ‘his’ sword near at hand, fights and, with one ‘man’ killed, he drives away the remaining ‘enemy soldiers’ a little;",
+      "while he presses on more eagerly, thrown down into a ‘hollow’, he fell. Pullo brings assistance to this ‘man’ (i.e. Vorenus), surrounded again,",
+      "and both, with a great number killed ‘by them’, retreat safely inside the fortifications with the highest praise.",
+      "Thus fortune ‘favoured’ each in the dispute and rivalry, so that one enemy was ‘of’ help and ‘a safeguard’ to the other, and it couldn’t be decided, which of the two, by ‘his’ courage, seemed to be preferred to which."
     ],
     "aAndS":[
       {"word":"erant","index":0,"solution":"verb 3p imperf act indic"},
