@@ -4170,7 +4170,7 @@ var poems = {
 		],
 	},
 	"Cae5.52": {
-		"name": "Caesar V.LII",
+		"name": "Caesar V.LII (5.52)",
 		"englishName": "Caesar 5.52. Caesar routs the Gallic forces and relieves Cicero.",
 		"wordCount": 125,
 		"half": 4,
