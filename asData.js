@@ -3948,11 +3948,22 @@ var poems = {
 	},
 	"Cae5.50": {
 		"name": "Caesar V.L (5.50)",
-		"englishName": "Caesar 5.50",
+		"englishName": "Caesar 5.50. Caesar routs the Gallic forces and relieves Cicero.",
 		"wordCount": 97,
 		"half": 4,
 		"latin": [
-			"Eo die parvulis equestribus proeliis ad aquam factis utrique sese suo loco continent: Galli, quod ampliores copias, quae nondum convenerant, exspectabant; Caesar, si forte timoris simulatione hostes in suum locum elicere posset, ut citra vallem pro castris proelio contenderet, si id efficere non posset, ut exploratis itineribus minore cum periculo vallem rivumque transiret. Prima luce hostium equitatus ad castra accedit proeliumque cum nostris equitibus committit. Caesar consulto equites cedere seque in castra recipere iubet, simul ex omnibus partibus castra altiore vallo muniri portasque obstrui atque in his administrandis rebus quam maxime concursari et cum simulatione agi timoris iubet."
+			"Eo die parvulis equestribus proeliis ad aquam factis utrique sese suo loco continent:",
+			"Galli, quod ampliores copias, quae nondum convenerant, exspectabant;",
+			"Caesar, si forte timoris simulatione hostes in suum locum elicere posset,",
+			"ut citra vallem pro castris proelio contenderet, si id efficere non posset, ut exploratis itineribus minore cum periculo vallem rivumque transiret. Prima luce hostium equitatus ad castra accedit proeliumque cum nostris equitibus committit.",
+			"Caesar consulto equites cedere seque in castra recipere iubet, simul ex omnibus partibus castra altiore vallo muniri portasque obstrui atque in his administrandis rebus quam maxime concursari et cum simulatione agi timoris iubet."
+		],
+		"translations":[
+			"That day, with very small battles having happened to cavalrymen near the water, each ‘army’ contains itself ‘in’ their own place:",
+			"because the Gauls were awaiting larger forces, which hadn’t yet assembled;",
+			"if Caesar could, by chance, by pretence of fear, lure the enemy out into his own position,",
+			"so that he might fight ‘them in’ battle on this side of the valley, in front of ‘his’ camp, ‘he would do so, but’ if he couldn’t carry that out, with routes investigated, he’d cross the valley and stream with less danger. At first light the enemy’s cavalry approaches the camp and joins battle with our horsemen.",
+			"Caesar orders the horsemen to yield deliberately and retreat into the camp, ‘and’, at the same time, he orders the camp to be blocked with a higher rampart ‘in’ all directions and the gates to be fortified and, in ‘managing’ these things, ‘for everything’ to be rushed as much as possible and to be done with the pretence of fear."
 		],
 		"aAndS": [
 			{ "word": "eo", "index": 0, "solution": "dem adj descs & pts out noun die" },
@@ -4045,11 +4056,20 @@ var poems = {
 	},
 	"Cae5.51": {
 		"name": "Caesar V.LI (5.51)",
-		"englishName": "Caesar 5.51",
+		"englishName": "Caesar 5.51. Caesar routs the Gallic forces and relieves Cicero.",
 		"wordCount": 106,
 		"half": 4,
 		"latin": [
-			"Quibus omnibus rebus hostes invitati copias traducunt aciemque iniquo loco constituunt, nostris vero etiam de vallo deductis propius accedunt et tela intra munitionem ex omnibus partibus coniciunt praeconibusque circummissis pronuntiari iubent, seu quis Gallus seu Romanus velit ante horam tertiam ad se transire, sine periculo licere; post id tempus non fore potestatem: ac sic nostros contempserunt, ut obstructis in speciem portis singulis ordinibus caespitum, quod ea non posse introrumpere videbantur, alii vallum manu scindere, alii fossas complere inciperent. Tum Caesar omnibus portis eruptione facta equitatuque emisso celeriter hostes in fugam dat, sic uti omnino pugnandi causa resisteret nemo, magnumque ex eis numerum occidit atque omnes armis exuit."
+			"Quibus omnibus rebus hostes invitati copias traducunt aciemque iniquo loco constituunt,",
+			"nostris vero etiam de vallo deductis propius accedunt et tela intra munitionem ex omnibus partibus coniciunt praeconibusque circummissis pronuntiari iubent, seu quis Gallus seu Romanus velit ante horam tertiam ad se transire, sine periculo licere; post id tempus non fore potestatem:",
+			"ac sic nostros contempserunt, ut obstructis in speciem portis singulis ordinibus caespitum, quod ea non posse introrumpere videbantur, alii vallum manu scindere, alii fossas complere inciperent.",
+			"Tum Caesar omnibus portis eruptione facta equitatuque emisso celeriter hostes in fugam dat, sic uti omnino pugnandi causa resisteret nemo, magnumque ex eis numerum occidit atque omnes armis exuit."
+		],
+		"translations":[
+			"Attracted by all ‘these’ things, the enemy lead ‘their’ forces over and they arrange ‘their’ line (of troops) ‘in’ an unfavourable place",
+			"with our ‘men’ also brought down from the actual rampart, ‘and’ they approach nearer and hurl ‘their’ missiles inside the fortification from all directions and, with heralds sent around, they order ‘that it’ is announced to ‘be permitted, that’ any Gaul or Roman may be willing to go across to them before the third hour, without danger; after that time ‘they ordered’ that there wouldn’t be permission:",
+			"and they thought so light of our ‘men’, that, with the gates blocked with single rows of turf for the sake of appearances, because they didn’t seem to be able to break in that way, some began to tear apart the rampart by hand, others to fill the ditches.",
+			"Then Caesar, with a sally made from all the gates, and with the cavalry sent out, quickly puts the enemy to flight, as if no one 'at all' resisted with the purpose of fighting, and he killed a great number of them and stripped everyone ‘of their’ arms."
 		],
 		"aAndS": [
 			{ "word": "quibus", "index": 0, "solution": "rel pron repls & relates to noun(s) in previous clause" },
@@ -4151,11 +4171,24 @@ var poems = {
 	},
 	"Cae5.52": {
 		"name": "Caesar V.LII",
-		"englishName": "Caesar 5.52",
+		"englishName": "Caesar 5.52. Caesar routs the Gallic forces and relieves Cicero.",
 		"wordCount": 125,
 		"half": 4,
 		"latin": [
-			"Longius prosequi veritus, quod silvae paludesque intercedebant neque etiam parvulo detrimento illorum locum relinqui videbat, omnibus suis incolumibus copiis eodem die ad Ciceronem pervenit. Institutas turres, testudines munitionesque hostium admiratur; legione producta cognoscit non decimum quemque esse reliquum militem sine vulnere: ex his omnibus iudicat rebus, quanto cum periculo et quanta cum virtute res sint administratae. Ciceronem pro eius merito legionemque collaudat; centuriones singillatim tribunosque militum appellat, quorum egregiam fuisse virtutem testimonio Ciceronis cognoverat. De casu Sabini et Cottae certius ex captivis cognoscit. Postero die contione habita rem gestam proponit, milites consolatur et confirmat: quod detrimentum culpa et temeritate legati sit acceptum, hoc aequiore animo ferendum docet, quod beneficio deorum immortalium et virtute eorum expiato incommodo neque hostibus diutina laetatio neque ipsis longior dolor relinquatur."
+			"Longius prosequi veritus, quod silvae paludesque intercedebant neque etiam parvulo detrimento illorum locum relinqui videbat, omnibus suis incolumibus copiis eodem die ad Ciceronem pervenit.",
+			"Institutas turres, testudines munitionesque hostium admiratur; legione producta cognoscit non decimum quemque esse reliquum militem sine vulnere:",
+			"ex his omnibus iudicat rebus, quanto cum periculo et quanta cum virtute res sint administratae.",
+			"Ciceronem pro eius merito legionemque collaudat; centuriones singillatim tribunosque militum appellat, quorum egregiam fuisse virtutem testimonio Ciceronis cognoverat. De casu Sabini et Cottae certius ex captivis cognoscit.",
+			"Postero die contione habita rem gestam proponit, milites consolatur et confirmat:",
+			"quod detrimentum culpa et temeritate legati sit acceptum, hoc aequiore animo ferendum docet, quod beneficio deorum immortalium et virtute eorum expiato incommodo neque hostibus diutina laetatio neque ipsis longior dolor relinquatur."
+		],
+		"translations":[
+			"Having feared to pursue ‘them’ further, because woods and marshes obstructed ‘them’ abd also ‘because’ he didn’t see that their post was abandoned with ‘only’ slight harm, he [Caesar] reached Cicero on the same day with all his forces safe.",
+			"He’s surprised at the enemy’s built towers, shelters and fortifications; with the legion drawn out, he learns that every tenth soldier wasn’t remaining without a wound:",
+			"from all these things he judges with how much danger and with how much courage matters have been managed.",
+			"He praises Cicero highly for his service, and the legion; one by one, he speaks to the centurions and the soldiers’ tribunes, whose courage he’d got to know to have been outstanding, from Cicero’s testimony. He learns about Sabinus’ and Cotta’s death more reliably from the prisoners.",
+			"The next day, with a meeting held, he declares ‘their’ achievement, ‘and’ he comforts and encourages the soldiers:",
+			"he informs that this defeat, which has been received by ‘his’ lieutenant’s fault and rashness, ‘is’ to be endured with a more patient mind, because, by the immortal gods’ favour and by their courage, with misfortune averted, neither lasting joy ‘was’ left to the enemy nor more protracted grief to them themselves."
 		],
 		"aAndS": [
 			{ "word": "longius", "index": 0, "solution": "comp adv descs verb prosequi" },
