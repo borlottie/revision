@@ -2656,7 +2656,7 @@ var poems = {
 			"Facta potestate eadem quae Ambiorix cum Titurio egerat commemorant: omnem esse in armis Galliam;",
 			"Germanos Rhenum transisse; Caesaris reliquorumque hiberna oppugnari.",
 			"Addunt etiam de Sabini morte: Ambiorigem ostentant fidei faciendae causa.",
-			"Errare eos dicunt, si quidquam ab his praesidi sperent, qui suis rebus diffidant; sese tamen hoc esse in Ciceronem populumque Romanum animo, ut nihil nisi hiberna recusent atque hanc inveterascere consuetudinem nolint:",
+			"Errare eos dicunt, si quidquam ab his praesidi(i) sperent, qui suis rebus diffidant; sese tamen hoc esse in Ciceronem populumque Romanum animo, ut nihil nisi hiberna recusent atque hanc inveterascere consuetudinem nolint:",
 			"licere illis incolumibus per se ex hibernis discedere et quascumque in partes velint sine metu proficisci.",
 			"Cicero ad haec unum modo respondit: non esse consuetudinem populi Romani accipere ab hoste armato condicionem:",
 			"si ab armis discedere velint, se adiutore utantur legatosque ad Caesarem mittant; sperare pro eius iustitia, quae petierint, impetraturos."
@@ -2891,7 +2891,7 @@ var poems = {
 			"Hostes maximo clamore sicuti parta iam atque explorata victoria turres testudinesque agere et scalis vallum ascendere coeperunt.",
 			"At tanta militum virtus atque ea praesentia animi fuit, ut, cum undique flamma torrerentur maximaque telorum multitudine premerentur suaque omnia impedimenta atque omnes fortunas conflagrare intellegerent, non modo demigrandi causa de vallo decederet nemo, sed paene ne respiceret quidem quisquam, ac tum omnes acerrime fortissimeque pugnarent.",
 			"Hic dies nostris longe gravissimus fuit; sed tamen hunc habuit eventum, ut eo die maximus numerus hostium vulneraretur atque interficeretur, ut se sub ipso vallo constipaverant recessumque primis ultimi non dabant.",
-			"Paulum quidem intermissa flamma et quodam loco turri adacta et contingente vallum tertiae cohortis centuriones ex eo, quo stabant, loco recesserunt suosque omnes removerunt, nutu vocibusque hostes, si introire vellent, vocare coeperunt; quorum progredi ausus est nemo.",
+			"Paulum quidem intermissa flamma et quodam loco turri adacta et conti(n)gente vallum tertiae cohortis centuriones ex eo, quo stabant, loco recesserunt suosque omnes removerunt, nutu vocibusque hostes, si introire vellent, vocare coeperunt; quorum progredi ausus est nemo.",
 			"Tum ex omni parte lapidibus coniectis deturbati, turrisque succensa est."
 		],
 		"translations": [
@@ -3090,7 +3090,7 @@ var poems = {
 		"wordCount": 209,
 		"half": 4,
 		"latin": [
-			"Erant in ea legione fortissimi viri, centuriones, qui primis ordinibus appropinquarent, Titus Pullo et Lucius Vorenus.",
+			"Erant in ea legione fortissimi viri, centuriones, qui primis ordinibus approp(r)inquarent, Titus Pullo et Lucius Vorenus.",
 			"Hi perpetuas inter se controversias habebant, quinam anteferretur, omnibusque annis de locis summis simultatibus contendebant.",
 			"Ex his Pullo, cum acerrime ad munitiones pugnaretur, \"Quid dubitas,\" inquit, \" Vorene? aut quem locum tuae probandae virtutis exspectas?",
 			"hic dies de nostris controversiis iudicabit.\" Haec cum dixisset, procedit extra munitiones quaque pars hostium confertissima est visa irrumpit.",
@@ -3431,7 +3431,7 @@ var poems = {
 			"Caesar acceptis litteris hora circiter XI diei statim nuntium in Bellovacos ad M. Crassum quaestorem mittit, cuius hiberna aberant ab eo milia passuum XXV;",
 			"iubet media nocte legionem proficisci celeriterque ad se venire.",
 			"Exit cum nuntio Crassus. Alterum ad Gaium Fabium legatum mittit, ut in Atrebatium fines legionem adducat, qua sibi iter faciendum sciebat.",
-			"Scribit Labieno, si rei publicae commodo facere posset, cum legione ad fines Nerviorum veniat. Reliquam partem exercitus, quod paulo aberat longius, non putat exspectandam; equites circiter quadringentos ex proximis hibernis colligit."
+			"Scribit Labieno, si rei publicae commodo facere posset, cum legione ad fines Nerviorum veniat. Reliquam partem exercitus, quod paulo aberat longius, non putat exspectandam; equites circiter quadri(n)gentos ex proximis hibernis colligit."
 		],
 		"translations": [
 			"With the letter received at around the eleventh hour of the day, Caesar at once sends a messenger to the Bellovaci [Belgian tribe of NE Gaul] to Marcus Crassus, the quaestor, whose winter quarters were 25 miles away from him;",
@@ -3546,7 +3546,7 @@ var poems = {
 			{ "word": "eo", "index": 0, "solution": "dem adj descs & pts out noun die" },
 			{ "word": "die", "index": 0, "solution": "noun abl EOT when" },
 			{ "word": "passuum", "index": 0, "solution": "noun gen partitive" },
-			{ "word": "pro( )cedit", "index": 0, "solution": "verb 3s pres act indic" },
+			{ "word": "procedit", "index": 0, "solution": "verb 3s pres act indic" },
 			{ "word": "Crassum", "index": 0, "solution": "noun acc obj of verb praeficit" },
 			{ "word": "praeficit", "index": 0, "solution": "verb 3s pres act indic" },
 			{ "word": "legionemque", "index": 0, "solution": "noun acc obj of verb attribuit + conjunction" },

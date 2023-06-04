@@ -16,14 +16,14 @@
     <a href="index.html">Home</a>
     <a href="scansion.html">Scansion</a>
     <a href="a-and-s.html">A&S</a>
-    <a href="seen.html">Seen Poetry</a>
+    <a href="seen.html">Seens</a>
   </div>
   <div class="spacer"></div>
 
   <div id="content">
-    <h1>Seen Poetry Revision</h1>
-    <h2>Poems:</h2>
-    <em>Select poems to translate from.</em><br>
+    <h1>Seen Passage Revision</h1>
+    <h2>Passages:</h2>
+    <em>Select passages to translate from.</em><br>
     <button onclick="saveSettings()">Save Current Settings</button><br>
     <!-- Poem checkboxes. They get loaded programmatically -->
 
@@ -45,7 +45,6 @@
       <label>Select All</label><br><br>
 
       <h4>Second Half</h4>
-      <p>(not yet added)</p>
       <input type="checkbox" id="selectall4" onchange="toggleAllPoems(4);countWords()">
       <label>Select All</label><br><br>
       
@@ -57,8 +56,8 @@
 
     <div id="header" hidden=true>
       <h2>Seens:</h2>
-      <em>Your chosen poems are displayed below. To show/hide all poems at once, use the buttons below. To show/hide a
-        poem at a time, click the poem's title. To show/hide a line at a time, click the line.</em>
+      <em>Your chosen passages are displayed below. To show/hide all passages at once, use the buttons below. To show/hide a
+        passage at a time, click the passage's title. To show/hide a line at a time, click the line.</em>
       <br>
       <button onclick="toggleEverything(false)">Show all solutions</button>
       <button onclick="toggleEverything(true)">Hide all solutions</button>
