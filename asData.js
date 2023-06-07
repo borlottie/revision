@@ -2803,7 +2803,8 @@ var poems = {
 			"‘Disappointed’ from this hope, the Nervii surrounded the winter quarters with a rampart of nine feet and a ditch of fifteen feet.",
 			"They’d both got to know these things from us from the previous years’ social intercourse and they were taught by those whom they secretly had ‘as’ prisoners from ‘our’ army;",
 			"but with no ‘supply’ of tools which 'were' suitable for this use, they struggled to cut around the turf with ‘their’ swords, ‘and’ to remove the earth with ‘their’ hands and ‘their’ cloaks.",
-			"In fact, from ‘this’ circumstance, a great number of the men could be identified: for, in less than three hours, they finished a fortification of 15,000 feet in ‘circumference’ and, in the remaining days, they ‘began’ to prepare and make towers towards the rampart’s height, siege hooks and shelters (for besiegers), which the same prisoners had taught ‘them’."
+			"In fact, from ‘this’ circumstance, a great number of the men could be identified: for, in less than three hours, they finished a fortification of 15,000 feet in ‘circumference’",
+			"and, in the remaining days, they ‘began’ to prepare and make towers towards the rampart’s height, siege hooks and shelters (for besiegers), which the same prisoners had taught ‘them’."
 		],
 		"aAndS": [
 			{ "word": "hac", "index": 0, "solution": "dem adj descs & pts out noun spe" },
