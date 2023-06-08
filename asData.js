@@ -4061,13 +4061,13 @@ var poems = {
 		"wordCount": 106,
 		"half": 4,
 		"latin": [
-			"Quibus omnibus rebus hostes invitati copias traducunt aciemque iniquo loco constituunt,",
+			"Quibus omnibus rebus hostes invitati copias traducunt aciemque iniquo loco constituunt;",
 			"nostris vero etiam de vallo deductis propius accedunt et tela intra munitionem ex omnibus partibus coniciunt praeconibusque circummissis pronuntiari iubent, seu quis Gallus seu Romanus velit ante horam tertiam ad se transire, sine periculo licere; post id tempus non fore potestatem:",
 			"ac sic nostros contempserunt, ut obstructis in speciem portis singulis ordinibus caespitum, quod ea non posse introrumpere videbantur, alii vallum manu scindere, alii fossas complere inciperent.",
 			"Tum Caesar omnibus portis eruptione facta equitatuque emisso celeriter hostes in fugam dat, sic uti omnino pugnandi causa resisteret nemo, magnumque ex eis numerum occidit atque omnes armis exuit."
 		],
 		"translations":[
-			"Attracted by all ‘these’ things, the enemy lead ‘their’ forces over and they arrange ‘their’ line (of troops) ‘in’ an unfavourable place",
+			"Attracted by all ‘these’ things, the enemy lead ‘their’ forces over and they arrange ‘their’ line (of troops) ‘in’ an unfavourable place;",
 			"with our ‘men’ also brought down from the actual rampart, ‘and’ they approach nearer and hurl ‘their’ missiles inside the fortification from all directions and, with heralds sent around, they order ‘that it’ is announced to ‘be permitted, that’ any Gaul or Roman may be willing to go across to them before the third hour, without danger; after that time ‘they ordered’ that there wouldn’t be permission:",
 			"and they thought so light of our ‘men’, that, with the gates blocked with single rows of turf for the sake of appearances, because they didn’t seem to be able to break in that way, some began to tear apart the rampart by hand, others to fill the ditches.",
 			"Then Caesar, with a sally made from all the gates, and with the cavalry sent out, quickly puts the enemy to flight, as if no one 'at all' resisted with the purpose of fighting, and he killed a great number of them and stripped everyone ‘of their’ arms."
@@ -4184,7 +4184,7 @@ var poems = {
 			"quod detrimentum culpa et temeritate legati sit acceptum, hoc aequiore animo ferendum docet, quod beneficio deorum immortalium et virtute eorum expiato incommodo neque hostibus diutina laetatio neque ipsis longior dolor relinquatur."
 		],
 		"translations":[
-			"Having feared to pursue ‘them’ further, because woods and marshes obstructed ‘them’ abd also ‘because’ he didn’t see that their post was abandoned with ‘only’ slight harm, he [Caesar] reached Cicero on the same day with all his forces safe.",
+			"Having feared to pursue ‘them’ further, because woods and marshes obstructed ‘them’ and also ‘because’ he didn’t see that their post was abandoned with ‘only’ slight harm, he [Caesar] reached Cicero on the same day with all his forces safe.",
 			"He’s surprised at the enemy’s built towers, shelters and fortifications; with the legion drawn out, he learns that every tenth soldier wasn’t remaining without a wound:",
 			"from all these things he judges with how much danger and with how much courage matters have been managed.",
 			"He praises Cicero highly for his service, and the legion; one by one, he speaks to the centurions and the soldiers’ tribunes, whose courage he’d got to know to have been outstanding, from Cicero’s testimony. He learns about Sabinus’ and Cotta’s death more reliably from the prisoners.",
@@ -4226,7 +4226,7 @@ var poems = {
 			{ "word": "cognoscit", "index": 0, "solution": "verb 3s pres act indic" },
 			{ "word": "non", "index": 0, "solution": "adv descs verb esse" },
 			{ "word": "decimum", "index": 0, "solution": "adj descs noun militem" },
-			{ "word": "esse reliquum", "index": 0, "solution": "verb pres act inf" },
+			{"word":"esse reliquum","index":0,"solution":"verb 3S perf pass indic","exception":{"type":"gap", "firstWord":"esse", "firstIndex": 0, "secondWord":"reliquum", "secondIndex":0}},
 			{ "word": "reliquum", "index": 0, "solution": "adj descs noun militem" },
 			{ "word": "militem", "index": 0, "solution": "noun acc ind stat" },
 			{ "word": "vulnere", "index": 0, "solution": "noun abl folls prepos'n sine + Abl" },
