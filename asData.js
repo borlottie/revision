@@ -2852,7 +2852,7 @@ var poems = {
 			{ "word": "nitebantur", "index": 0, "solution": "verb 3p imperf dep indic" },
 			{ "word": "quidem", "index": 0, "solution": "adv descs verb potuit" },
 			{ "word": "re", "index": 0, "solution": "noun abl folls prepos'n ex + Abl" },
-			{ "word": "hominum", "index": 0, "solution": "noun gen partitive" },
+			{ "word": "hominum", "index": 0, "solution": "noun gen owns multitudo" },
 			{ "word": "multitudo", "index": 0, "solution": "noun nom subj of verb potuit" },
 			{ "word": "cognosci", "index": 0, "solution": "verb pres dep inf" },
 			{ "word": "potuit", "index": 0, "solution": "verb 3s perf act indic" },
