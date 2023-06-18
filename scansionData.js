@@ -2682,7 +2682,7 @@ var scansionBooks = {
     {"scansion":["S","D","S","D","D","S"],"caesura":3,"notes":[]},
     {"scansion":["S","(D)","S","S","D","T"],"caesura":2,"notes":["qu- + vwl non-diphthong -- qui",]},
     {"scansion":["S","D","(S)","S","D","S"],"caesura":2,"notes":[]},
-    {"scansion":["S","(S)","S","D","D","T"],"caesura":2,"notes":[]},
+    {"scansion":["S","(S)","(S)","D","D","T"],"caesura":2,"notes":[]},
     {"scansion":["S","S","S","S","D","T"],"caesura":3,"notes":[]},
     {"scansion":["D","(S)","S","S","D","T"],"caesura":3,"notes":[]},
     {"scansion":["(D)","D","S","D","D","S"],"caesura":3,"notes":["i / j -- perjuga",]},
