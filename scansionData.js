@@ -2274,7 +2274,7 @@ var scansionBooks = {
     {"scansion":["S","D","(S)","S","D","T"],"caesura":2,"notes":[]},
   ],
   "aen6": [
-    (),
+    {},
     {},
     {},
     {},
