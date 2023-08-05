@@ -1,3 +1,4 @@
+//dont forget you need a 0th line in every book thats blank
 var scansionBooks = {
   "aen1": [
     {},
