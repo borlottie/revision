@@ -12,7 +12,8 @@ for (poem in poems) {
 
     const label = document.createElement("label")
     label.for = poem
-    label.innerHTML = " " + poems[poem].name
+    // label aeneid halves by english name and everything else by latin name
+    label.innerHTML = " " + (poems[poem].half > 4 ? poems[poem].englishName : poems[poem].name)
 
     const container = document.getElementById("poemchoice")
     let end = document.getElementById("selectall"+poems[poem].half)    
