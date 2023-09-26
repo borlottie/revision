@@ -4749,7 +4749,7 @@ var poems = {
 		],
 		"translations": [
 			"Anchises had spoken and he dragged ‘his’ son and the Sibyl together",
-			"into the middle of the gathering and the ‘murmuring’ crowd,",
+			"into the middle of the gatherings and the ‘murmuring’ crowd,",
 			"and he chooses a hill from where he ‘was’ able to scan everyone in a long line",
 			"opposite and ‘watch’ the faces of ‘those’ coming ‘by him’.",
 			"",
