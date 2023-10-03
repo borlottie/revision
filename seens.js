@@ -117,7 +117,14 @@ function generateSeens() {
       latin.innerHTML = `<button onclick="togglePoemLine('${poemid}line${line}')" class="inline">${poems[poemid].latin[line]}</button>`
       
       const english = document.createElement("td")
-      english.innerHTML = poems[poemid].translations[line]
+      const englishText = poems[poemid].translations[line].split(" ")
+      for (let wordi = 0; wordi < englishText.length; wordi++) {
+        const word = document.createElement("span")
+        word.innerHTML = englishText[wordi]
+        word.className = "english"
+        word.style.display = "inline-block"
+        english.append(word)
+      }
       english.id = poemid+"line"+line
       english.style.visibility = "hidden"
 
